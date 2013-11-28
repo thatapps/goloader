@@ -27,3 +27,34 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+OTHER LICENSES
+================================================================
+    Additional licenses informations about code used in this project.
+    
+    
+     This App is released under the GPL-3.0. 
+    
+    
+     The FFmpeg binary (http://www.ffmpeg.org/index.html), 
+     used for the audio extraction feature, is released under the GPL-3.0. 
+    (FFmpeg version 1.2 Copyright (C) 2000-2013 the FFmpeg developers). 
+    
+     The filechooser library is released under the MIT license. 
+    (android-filechooser Copyright (C) 2012 Hai Bison). 
+    
+     The liblame library, used to compile FFmpeg, is released under the LGPL. 
+     A GitHub project, https://github.com/intervigilium/liblame, 
+     has been used to compile the lame libraries for Android. 
+    (liblame Copyright (C) 2010 Ethan Chen) 
+    (LAME Copyright (C) 1999-2007 The LAME Project, 
+    Copyright (C) 1999-2001 Mark Taylor, 
+    Copyright (C) 1998 Micheal Cheng) 
+    (mpglib Copyright (C) 1995-1997 Michael Hipp). 
+    
+      mp3 tags are written with MyID3: a Java ID3 Tag Library 
+     (http://www.fightingquaker.com/myid3 and 
+     https://sites.google.com/site/eternalsandbox/myid3-for-android) 
+     released under the LGPL, as its dependency Jakarta Regexp library. 
+    (MyID3 Copyright (C) 2008 Charles M. Chen, 
+    adapted for Android by Romulus Urakagi Ts`ai). 
