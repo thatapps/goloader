@@ -1,4 +1,6 @@
 DISCLAIMER
+
+
 You, the user, accept the full responsibility for the usage of 
 this application, excluding the developer from any liability about 
 any consequence that may derive. Thus, this application has to be 
@@ -7,7 +9,10 @@ NOTICE
 Complying with the GPL below is mandatory.
 It's not that difficult: just give proper credits 
 to this sources and release your modified ones.
+
+
 LICENSE
+
 Copyright (C) 2013 Go Loader
 
 This program is free software: you can redistribute it and/or modify
