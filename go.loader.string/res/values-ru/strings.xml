@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">настройки</string>
+    <string name="title_activity_tutorials">Учебники</string>
+     <string name="title_activity_about">около</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">Генеральный App учебник</string>
+	<string name="tutorial_msg_new">Теперь вы увидите список всех кодеков и качества доступных для выбранного видео.
+	    Вы можете:
+	    \n\n*) Здесь вы можете увидеть различные размеры видео и возможность скачать его.
+		\n\n*) Долгосрочный нажать пункт и выбирать между скопировать в буфер обмена или поделиться ссылкой в виде текста (то есть отправить на другое приложение).
+		\n\n*) Чтобы увидеть размер видео и информацию включите опцию в настройки.
+		\n\n*) Некоторые новые возможности в ближайшее время ...
+		</string>
+    <string name="loading">загрузка&#8230;</string>
+    <string name="error">ошибка!</string>
+    <string name="information">информация</string>
+    <string name="dialogs_negative">отменить</string>
+    <string name="wait">Пожалуйста, подождите&#8230;</string>
+    <string name="no_downloads_sys_app">\"Загрузки\" Система приложение не найдено.</string>
+    <string name="ytd_useless">Easy Video Downloader не можете скачивать файлы на этом устройстве.</string>
+    <string name="invalid_url">Не удается получить веб-страницу. URL может быть недействительным.</string>
+    <string name="invalid_url_short">Не удается получить веб-страницу.</string>
+    <string name="invalid_response">Неверный ответ HTTP сервера.</string>
+    <string name="bad_link">Проверить предоставленную ссылку.</string>
+    <string name="bad_link_dialog_msg">Не действующей ссылки видео.</string>
+    <string name="no_net">Нет доступных соединений.</string>
+    <string name="no_net_dialog_msg">Пожалуйста, активируйте подключение к сети первого.</string>
+    <string name="no_market">Нет рынка приложение доступно.</string>
+    <string name="no_market_dialog_msg">Пожалуйста, установите Google Play</string>
+    <string name="list_click_dialog_title">Подтвердите скачать:</string>
+    <string name="list_click_download_local">скачать</string>
+    
+    <string name="rename_dialog_title">Новое имя файла:</string>
+    <string name="rename_dialog_msg">Не вводите расширение файла (например,. Mp4 или. FLV).</string>
+    <string name="unable_save">Не удалось сохранить видео!</string>
+    <string name="unable_save_dialog_msg">Целевая папка не доступны и / или не доступен для записи.</string>
+    <string name="ssh_info_tutorial_title">Отправить по SSH How-To</string>
+    <string name="ssh_info_tutorial_msg">A single long command has been loaded in the clipboard.
+		\n\nChoose a profile in ConnectBot and once in your remote shell, browse to the desired 
+		directory, PASTE the command (use the menu button) and push ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s не установлен!</string>
+    <string name="callConnectBot_dialog_msg">Вам нужно это бесплатное приложение для отправки видео загрузки через SSH.</string>
+    <string name="callConnectBot_dialog_positive">скачать</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\nУспешно загружены.</string>
+    <string name="download_complete_dialog_positive">открыть</string>
+    <string name="downloading">загрузка&#8230;</string>
+    <string name="cancel_download_dialog_title">Отменить загрузку?</string>
+    <string name="video_list_error_toast">Ошибка в списке видео.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">загрузка</string>
+    <string name="notification_downloading_pt2">видео файлов</string>
+    <string name="notification_no_downloads">Нет загрузки в прогресс</string>
+    <string name="long_click_title">Ручка Выбранная ссылка:</string>
+    <string name="extsdcard_info_title">Название стандартный путь назначения</string>
+    <string name="extsdcard_info_msg">Файл загружается сначала в стандартной папке Download, а затем будет перемещен в выбранное место.</string>
+    <string name="ffmpeg_ready">FFmpeg готовы.</string>
+    <string name="confirm_audio_checkbox1">Извлечение аудио после загрузки</string>
+    <string name="confirm_audio_checkbox2">\n(как определено в настройках)</string>
+	<string name="login_required">Войти требуется.</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader не в состоянии справиться с этим видео.</string>
+    <string name="no_video_available">Нет видео доступно.</string>
+    <string name="retry_button_text">Повторить</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>Копировать в буфер обмена</item>
+        <item>Поделиться в виде текста</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>Копировать в буфер обмена</item>
+        <item>Поделиться в виде текста</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Внимание!</string>
+    <string name="extsdcard_warning">Невозможно записать файлы на съемном SDCard.\nПадение назад на стандартную SD карту.</string>
+    <string name="system_warning_title">Это системная папка</string>
+    <string name="system_warning_msg">Выбранного пути вернется на стандартные папки Скачать SDCard.</string>
+    <string name="sdcard_unmounted_warning">Sdcard не установлен</string>
+    <string name="update_disabled_summary">Найдены различные подписи (F-Droid?)</string>
+    <string name="failed_download">Не удалось удалить загрузки</string>
+    <string name="new_v_download">найдено. загрузка&#8230;</string>
+    <string name="new_v_install">скачал. Щелкните для установки.</string>
+    <string name="ffmpeg_download_dialog_title">Дополнительный файл не требуется. Загрузите его сейчас?</string>
+    <string name="ffmpeg_download_dialog_msg">Чтобы извлечь и конвертировать аудио из загруженных видео вам необходимо скачать этот файл. Этот файл является безопасным. Веб-ссылка:</string>
+    <string name="ffmpeg_device_not_supported">Устройство пока не поддерживаются.</string>
+    <string name="ffmpeg_support_mail">Отправить письмо разработчику?
+        \nВы обзор всей информации в почтовом приложении перед отправкой данных.</string>
+    <string name="ffmpeg_download_notification">Загрузка FFmpeg</string>
+    <string name="ffmpeg_install">Установка FFmpeg двоичных&#8230;</string>
+    <string name="email_via">Написать письмо через:</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader видео</string>
+    <string name="copy_error">Ошибка при копировании</string>
+    <string name="copy_progress">Копию файла в прогрессе&#8230;</string>
+    <string name="copy_ok">Скопируйте завершены.</string>
+    <string name="download_remove_failed">Ошибка: временное загруженный файл не удаляется!</string>
+    <string name="download_failed">Ошибка загрузки!</string>
+    <string name="audio_extr_progress">Извлечение аудио в прогрессе&#8230;</string>
+    <string name="audio_conv_progress">Аудио кодирование в MP3 в прогрессе&#8230;</string>
+    <string name="audio_extr_completed">Извлечение аудио завершены.</string>
+    <string name="audio_conv_completed">Аудио кодирование в mp3 завершены.</string>
+    <string name="audio_extr_error">Ошибка при извлечение цифрового аудио.</string>
+    <string name="audio_conv_error">Ошибка во время кодирования звука в MP3.</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg установка не удалась.</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">Загрузки</string>
+    <string name="dm_summary">Открытое Скачать менеджер по системам</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">интерфейс пользователя</string>
+    <string name="lang_title">язык</string>
+    <string name="lang_dialog_title">Язык (необходимо повторном запуске программы):</string>
+    <string name="choose_theme_title">Выбрать тему</string>
+    <string-array name="choose_theme_entries">
+        <item>темный</item>
+        <item>свет</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Быстрый старт</string>
+    <string name="quick_start_summ">Откройте Руководство по началу работы</string>
+    <string name="quick_start_text">Вот только преференции для \'Easy Video Downloader\'.
+		\n\nЭто приложение может быть доступна через кнопку Отправить в видео приложение, во время просмотра видео.
+		\n\nЗатем выберите \'Easy Video Downloader\' и у вас будет дальнейшее использование информации.
+		\n\nВы также можете поделиться любым видео простой текстовой ссылки с помощью любого другого приложения: т.е. вашем браузере.</string>
+		
+		<string name="quick_start_home">Вот только преференции для \'Easy Video Downloader\'.
+		\n\nЭто приложение может быть доступна через кнопку Отправить в видео приложение, во время просмотра видео.
+		\n\nЗатем выберите \'Easy Video Downloader\' и у вас будет дальнейшее использование информации.
+		\n\nВы также можете поделиться любым видео простой текстовой ссылки с помощью любого другого приложения: т.е. вашем браузере.
+		\n\nЕсли вы найдете это приложение полезно пожалуйста, оцените нас с 5 звездами. 
+		\n\nЧтобы закрыть это сообщение просто нажмите в любом месте экрана или клавишу возврата.
+		</string>
+		
+    <string name="general_info_title">Включить Генеральный инструкции</string>
+    <string name="general_info_summary">Показать общую учебник приложение при запуске</string>
+    <string name="show_again_checkbox">Показать в следующий раз</string>
+    <string name="ssh_info_title">Включить SSH как-бы</string>
+    <string name="ssh_info_summary">Показать быстрый отзыв об удаленной загрузки через SSH</string>
+    <string name="audio_tutorial_title">Аудио учебник добычи</string>
+    <string name="audio_tutorial_summary">Откройте краткое руководство о звуковом выделения признаков</string>
+    <string name="audio_tutorial_text">Чтобы извлечь или конвертировать в MP3 аудио из загруженного видео:
+        \n\n*) Включение звукового сопровождения и скачать FFmpeg;
+        \n\n*) Выберите тип добычи:
+        \n\n\"извлечь только\" будет сохранять аудио поток из видео как есть (WebM файлы содержат \"Ogg Vorbis\" 
+        Audio; MP4, 3GPP и большой / средний FLV видео удерживайте \"AAC\" аудиопотока; FLV мелкими зацепами \"mp3\");
+        \n\n\"извлекать и декодировать в mp3\" будет конвертировать извлеченные аудио в MP3, кодирующей его с выбранным битрейтом.
+        \n\nОтныне флажок появится в окне загрузки подтверждения отображается при нажатии кнопки элемент 
+        в Easy Video Downloader\'s списка видео. Когда проверили, аудио работу добыча начнется после завершения загрузки видео
+         (скрыть флажок, отключите звук вариант добычи).
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Скачать папку</string>
+    <string name="standard_location_title">Выберите стандартную папку</string>
+    <string name="chooser_swap_title">Поменяйте выбора</string>
+    <string name="chooser_location_title">Открыть файл-выбора</string>
+    <string name="chooser_location_summary">Нажмите и удерживайте нажатой для выбора папки</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Видеофайлы</string>
+    <string name="enable_q_suffix_title">Добавление суффикса качества</string>
+    <string name="enable_q_suffix_summary">Добавьте качество видео в конце имени файла</string>
+    <string name="enable_rename_title">Включить переименования файлов</string>
+    <string name="enable_rename_summary">Переименуйте видео файл перед загрузкой</string>
+    <string name="show_size_title">Показать размер файла</string>
+    <string name="show_size_summary">Fetch размер видеофайла при загрузке сообщение с подтверждением (медленнее)</string>
+    <string name="show_size_list_title">Показать все видео размеров</string>
+    <string name="show_size_list_summary">Fetch размеры файлов для каждого элемента в списке доступных видео (очень сильно)</string>
+    <string name="show_thumb_title">Показать Предварительный просмотр</string>
+    <string name="show_thumb_summary">Скачать изображения для предварительного просмотра вместе с списке видео</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">аудио</string>
+    <string name="enable_audio_extraction_title">Включить аудио добычи</string>
+    <string name="enable_audio_extraction_summary">Выдержка и конвертирование аудио из загруженных видео</string>
+    <string name="mp3_bitrate_title">Битрейт для MP3 кодирования (Kbps)</string>
+    <string name="audio_extraction_type_title">Добыча типа</string>
+    <string name="enable_audio_q_suffix_title">Добавление суффикса аудио качество</string>
+    <string name="enable_audio_q_suffix_summary">Добавьте качества звука в конце имени файла</string>
+    <string name="remove_video_title">Видео удаление</string>
+    <string name="remove_video_summary">Включить удаления видео файл после успешного аудио добычи (предупреждение: нет подтверждения)</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>извлечь только</item>
+        <item>Извлекать и декодировать в mp3</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Уведомления</string>
+    <string name="enable_own_notification_title">Включить собственные уведомления</string>
+    <string name="enable_own_notification_summary">Показать всеобъемлющего уведомления о всех Easy Video Downloader загрузок</string>
+    <string name="download_manager_notification_title">Управление системами уведомления</string>
+    <string name="download_manager_notification_dialog_title">Показать систем Менеджер загрузок уведомления:</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>В то время как в ходе и после завершения</item>
+        <item>В процессе выполнения только</item>
+        <item>никогда не</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">Уведомление по умолчанию</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader\'s собственных умолчанию уведомления</string>
+    <string-array name="notification_defaults_entries">
+        <item>Шума и вибрации</item>
+        <item>Звук и свет</item>
+        <item>Вибрация и свет</item>
+        <item>Звук, вибрацию и индикаторы</item>
+        <item>звучать</item>
+        <item>вибрация</item>
+        <item>фары</item>
+        <item>Ничего</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>

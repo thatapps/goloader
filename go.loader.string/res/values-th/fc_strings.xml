@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012 Hai Bison
+
+    See the file LICENSE at the root directory of this project for copying
+    permission.
+-->
+
+<resources>
+
+    <string name="afc_lib_name">android-filechooser</string>
+    <string name="afc_cmd_advanced_selection_all">ทั้งหมด</string>
+    <string name="afc_cmd_advanced_selection_invert">ผกผันการเลือก</string>
+    <string name="afc_cmd_advanced_selection_none">ไม่</string>
+    <string name="afc_cmd_clear">ล้าง</string>
+    <string name="afc_cmd_grid_view">ดูตาราง</string>
+    <string name="afc_cmd_home">บ้าน</string>
+    <string name="afc_cmd_list_view">มุมมองรายการ</string>
+    <string name="afc_cmd_new_folder">โฟลเดอร์ใหม่&#8230;</string>
+    <string name="afc_cmd_reload">โหลด</string>
+    <string name="afc_cmd_remove_from_list">ลบออกจากรายการ</string>
+    <string name="afc_cmd_select_all_files">เลือกไฟล์ทั้งหมด</string>
+    <string name="afc_cmd_select_all_folders">เลือกโฟลเดอร์ทั้งหมด</string>
+    <string name="afc_cmd_sort">ประเภท&#8230;</string>
+    <string name="afc_cmd_switch_viewmode">สลับ ViewMode</string>
+    <string name="afc_ellipsize">&#8230;</string>
+    <string name="afc_file">ไฟล์</string>
+    <string name="afc_folder">โฟลเดอร์</string>
+    <string name="afc_hint_double_tap_to_select_file">เคาะสองครั้งเพื่อเลือกไฟล์ / โฟลเดอร์</string>
+    <string name="afc_hint_folder_name">ชื่อโฟลเดอร์</string>
+    <string name="afc_hint_save_as_filename">filename</string>
+    <string name="afc_msg_app_doesnot_have_permission_to_create_files">โปรแกรมนี้ไม่ได้รับอนุญาตในการสร้างไฟล์ / โฟลเดอร์</string>
+    <string name="afc_msg_app_doesnot_have_permission_to_delete_files">โปรแกรมนี้ไม่ได้มีสิทธิ์ที่จะลบไฟล์ / โฟลเดอร์</string>
+    <string name="afc_msg_cancelled">ถูกยกเลิก</string>
+    <string name="afc_msg_cannot_connect_to_file_provider_service">ไม่สามารถเชื่อมต่อไปยังไฟล์ให้บริการ</string>
+    <string name="afc_msg_done">ทำ</string>
+    <string name="afc_msg_empty">&#8230;empty</string>
+    <string name="afc_msg_filename_is_empty">ชื่อไฟล์ว่างเปล่า</string>
+    <string name="afc_msg_loading">กำลังโหลด&#8230;</string>
+    <string name="afc_pmsg_cannot_access_dir">ไม่สามารถเข้าถึง \"%1$s\"</string>
+    <string name="afc_pmsg_cannot_create_folder">ไม่สามารถสร้างโฟลเดอร์ \"%1$s\"</string>
+    <string name="afc_pmsg_cannot_delete_file">ไม่สามารถลบ %1$s \"%2$s\"</string>
+    <string name="afc_pmsg_confirm_delete_file">คุณแน่ใจหรือว่าต้องการลบรายการนี้ %1$s \"%2$s\"?</string>
+    <string name="afc_pmsg_confirm_replace_file">ไฟล์นี้ \"%1$s\" ที่มีอยู่แล้ว\n\nคุณต้องการที่จะเปลี่ยนหรือไม่</string>
+    <string name="afc_pmsg_deleting_file">ลบ %1$s \"%2$s\"&#8230;</string>
+    <string name="afc_pmsg_file_has_been_deleted">&#8230;%1$s \"%2$s\" ถูกลบไปแล้ว</string>
+    <string name="afc_pmsg_filename_is_directory">\"%1$s\" เป็นโฟลเดอร์</string>
+    <string name="afc_pmsg_filename_is_invalid">ชื่อไฟล์ \"%1$s\" ไม่ถูกต้อง</string>
+    <string name="afc_pmsg_max_file_count_allowed">&#8230;มีไฟล์มากขึ้นสูงสุดที่อนุญาต: %1$,d</string>
+    <string name="afc_pmsg_unknown_error">ข้อผิดพลาดที่ไม่รู้จัก: %1$s</string>
+    <string name="afc_pmsg_xxx_items">%1$,d รายการ</string>
+    <string name="afc_root">ราก</string>
+    <string name="afc_title_advanced_selection">เลือก&#8230;</string>
+    <string name="afc_title_alert">เตือนภัย</string>
+    <string name="afc_title_choose_directories">เลือกโฟลเดอร์</string>
+    <string name="afc_title_choose_files">เลือกไฟล์&#8230;</string>
+    <string name="afc_title_choose_files_and_directories">เลือกไฟล์ / โฟลเดอร์&#8230;</string>
+    <string name="afc_title_confirmation">การยืนยัน</string>
+    <string name="afc_title_date">วันที่</string>
+    <string name="afc_title_error">ความผิดพลาด</string>
+    <string name="afc_title_history">ประวัติศาสตร์</string>
+    <string name="afc_title_info">ข้อมูล</string>
+    <string name="afc_title_name">ชื่อ</string>
+    <string name="afc_title_save_as">บันทึกเป็น&#8230;</string>
+    <string name="afc_title_size">ขนาด</string>
+    <string name="afc_title_sort_by">เรียงตาม&#8230;</string>
+    <string name="afc_yesterday">เมื่อวาน</string>
+
+</resources>

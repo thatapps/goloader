@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   
+    
+    <string name="thumb_preview_descr">Video thumbnail</string>
+	
+    <string name="app_name">Go Loader</string>
+    <string name="title_activity_share">Go Loader</string>
+    
+    <string-array name="standard_location_entries">
+        <item>Downloads</item>
+        <item>DCIM</item>
+        <item>Movies</item>
+    </string-array>
+    
+    <string-array name="standard_location_entry_values">
+        <item>Downloads</item>
+        <item>DCIM</item>
+        <item>Movies</item>
+    </string-array>
+    
+    <string name="standard_location_default">Downloads</string>
+    
+    <string-array name="connectbot_flavour_entries">
+        <item>ConnectBot</item>
+        <item>VX ConnectBot</item>
+        <item>Irssi ConnectBot</item>
+    </string-array>
+    
+    <string-array name="connectbot_flavour_entry_values">
+        <item>org.connectbot</item>
+        <item>sk.vx.connectbot</item>
+        <item>org.woltage.irssiconnectbot</item>
+    </string-array>
+    
+    <string name="connectbot_flavour_default">org.connectbot</string>
+    
+    <string-array name="download_manager_notification_entry_values">
+        <item>VISIBLE_NOTIFY_COMPLETED</item>
+        <item>VISIBLE</item>
+        <item>HIDDEN</item>
+    </string-array>
+    
+    <string name="download_manager_notification_default">VISIBLE</string>
+    
+    <string-array name="choose_theme_entry_values">
+        <item>D</item>
+        <item>L</item>
+    </string-array>
+    
+    <string name="choose_theme_default">D</string>
+    
+    <string-array name="audio_extraction_type_entry_values">
+        <item>extr</item>
+        <item>conv</item>
+    </string-array>
+    
+    <string name="audio_extraction_type_default">extr</string>
+
+    <string-array name="mp3_bitrate_entries">
+        <item>128</item>
+        <item>160</item>
+        <item>192</item>
+        <item>256</item>
+        <item>320</item>
+    </string-array>
+    
+    <string-array name="mp3_bitrate_entry_values">
+        <item>128k</item>
+        <item>160k</item>
+        <item>192k</item>
+        <item>256k</item>
+        <item>320k</item>
+    </string-array>
+    
+    <string name="mp3_bitrate_default">192k</string>
+    <string name="ffmpeg_download_dialog_msg_link">http://sourceforge.net/projects/zevienin/files/ffmpeg/ffmpeg_arm%1$s/download</string>
+    <string name="ffmpeg_size_arm7">6.0 MB</string>
+    <string name="ffmpeg_size_arm5">6.4 MB</string>
+    
+    <string-array name="notification_defaults_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    
+    <string name="notification_defaults_default">0</string>
+    
+    <string-array name="lang_entries">
+        <item>Default</item>
+        <item>English</item>
+        <item>Arabic</item>
+        <item>German</item>
+		<item>Korean</item>
+		<item>Japanese</item>
+		<item>Spanish</item>
+        <item>French</item>
+		<item>Russian</item>
+        <item>Thai</item>
+		<item>Chinese (China)</item>
+		<item>Chinese (Hong Kong)</item>
+        <item>Chinese (Taiwan)</item>
+		<item>Portuguese (Brazil)</item>
+    </string-array>
+    
+    <string-array name="lang_entry_values">
+        <item>default</item>
+        <item>en</item>
+        <item>ar</item>  
+        <item>de</item>
+		<item>ko</item>
+		<item>ja_JP</item>
+		<item>es</item>
+        <item>fr</item>
+		<item>ru</item>
+		<item>th</item>
+		<item>zh_CN</item>
+		<item>zh_HK</item>
+        <item>zh_TW</item>
+		<item>pt_BR</item>
+    </string-array>
+    
+    <string name="lang_default">default</string>
+
+</resources>

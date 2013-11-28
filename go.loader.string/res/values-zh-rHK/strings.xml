@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">設置</string>
+    <string name="title_activity_tutorials">教程</string>
+     <string name="title_activity_about">關於</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">一般應用教程</string>
+	<string name="tutorial_msg_new">現在你會看到一個名單，所有可用於選定的視頻編解碼器和質量。 
+	    您可以:
+	    \n\n*) 在這裡，你可以看到不同尺寸的視頻，並選擇下載。
+		\n\n*) 長按項目並選擇之間拷貝到剪貼板或共享鏈接文本（即發送到另一個應用程序）。
+		\n\n*) 要查看視頻的大小和信息啟用選項中設置。
+		\n\n*) 一些即將推出的新功能...
+		</string>
+    <string name="loading">加載&#8230;</string>
+    <string name="error">錯誤!</string>
+    <string name="information">信息</string>
+    <string name="dialogs_negative">取消</string>
+    <string name="wait">請稍候&#8230;</string>
+    <string name="no_downloads_sys_app">\"下載\" 系統應用程序沒有被發現。</string>
+    <string name="ytd_useless">Easy Video Downloader 此設備上無法下載文件。</string>
+    <string name="invalid_url">無法檢索網頁。網址可能是無效的。</string>
+    <string name="invalid_url_short">無法檢索網頁。</string>
+    <string name="invalid_response">無效的HTTP服務器響應。</string>
+    <string name="bad_link">檢查所提供的鏈接。</string>
+    <string name="bad_link_dialog_msg">沒有一個有效的視頻鏈接。</string>
+    <string name="no_net">無連接可用。</string>
+    <string name="no_net_dialog_msg">請啟用網絡連接。</string>
+    <string name="no_market">沒有市場的應用程序。</string>
+    <string name="no_market_dialog_msg">請安裝谷歌播放</string>
+    <string name="list_click_dialog_title">確認下載的:</string>
+    <string name="list_click_download_local">下載</string>
+    
+    <string name="rename_dialog_title">新的文件名：</string>
+    <string name="rename_dialog_msg">不要輸入文件擴展名（如MP4或FLV）。</string>
+    <string name="unable_save">無法保存視頻！</string>
+    <string name="unable_save_dialog_msg">目標文件夾是不是和/或不寫。</string>
+    <string name="ssh_info_tutorial_title">如何通過SSH發送</string>
+    <string name="ssh_info_tutorial_msg">A single long command has been loaded in the clipboard.
+		\n\nChoose a profile in ConnectBot and once in your remote shell, browse to the desired 
+		directory, PASTE the command (use the menu button) and push ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s 未安裝！</string>
+    <string name="callConnectBot_dialog_msg">你需要通過SSH發送視頻下載這個免費的App。</string>
+    <string name="callConnectBot_dialog_positive">下載</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\n成功下載。</string>
+    <string name="download_complete_dialog_positive">打開</string>
+    <string name="downloading">下載&#8230;</string>
+    <string name="cancel_download_dialog_title">取消下載？</string>
+    <string name="video_list_error_toast">在視頻列表中的錯誤。</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">下載</string>
+    <string name="notification_downloading_pt2">視頻文件</string>
+    <string name="notification_no_downloads">沒有下載進度</string>
+    <string name="long_click_title">處理選定的鏈接：</string>
+    <string name="extsdcard_info_title">標準的目標路徑名稱</string>
+    <string name="extsdcard_info_msg">正在下載文件最初是在標準的下載文件夾，然後將被移動到選定目標。</string>
+    <string name="ffmpeg_ready">FFmpeg的準備。</string>
+    <string name="confirm_audio_checkbox1">解壓下載後的</string>
+    <string name="confirm_audio_checkbox2">\n(在設置中定義)</string>
+	<string name="login_required">需要登錄。</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader 無法處理這個視頻。</string>
+    <string name="no_video_available">沒有可用的視頻。</string>
+    <string name="retry_button_text">重試</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>複製到剪貼板</item>
+        <item>文字分享</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>複製到剪貼板</item>
+        <item>文字分享</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">注意！</string>
+    <string name="extsdcard_warning">無法寫入可移動SD卡上的文件。\n回落標準SD卡。</string>
+    <string name="system_warning_title">這是一個系統文件夾</string>
+    <string name="system_warning_msg">標準SD卡下載文件夾，選擇的路徑將回落。</string>
+    <string name="sdcard_unmounted_warning">未安裝SD卡</string>
+    <string name="update_disabled_summary">找到不同的簽名（F-Droid的？）</string>
+    <string name="failed_download">刪除下載失敗</string>
+    <string name="new_v_download">發現。下載&#8230;</string>
+    <string name="new_v_install">下載。單擊“安裝”。</string>
+    <string name="ffmpeg_download_dialog_title">另外一個文件是必要的。現在就下載嗎？</string>
+    <string name="ffmpeg_download_dialog_msg">要提取和轉換音頻下載的視頻，你需要下載這個文件。這個文件是安全的。網站鏈接：</string>
+    <string name="ffmpeg_device_not_supported">設備尚不支持.</string>
+    <string name="ffmpeg_support_mail">發送電子郵件給開發商？
+        \n你會檢討你的電子郵件應用程序中的所有信息，然後再發送任何數據。</string>
+    <string name="ffmpeg_download_notification">下載FFmpeg的</string>
+    <string name="ffmpeg_install">安裝FFmpeg的二進制＆#8230;</string>
+    <string name="email_via">通過發送電子郵件：</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader 視頻</string>
+    <string name="copy_error">在複製過程中發生錯誤</string>
+    <string name="copy_progress">正在進行中的文件副本&#8230;</string>
+    <string name="copy_ok">複製完成.</string>
+    <string name="download_remove_failed">錯誤：臨時下載的文件不會被刪除！</string>
+    <string name="download_failed">下載失敗！</string>
+    <string name="audio_extr_progress">正在進行中的音頻提取&#8230;</string>
+    <string name="audio_conv_progress">音頻編碼MP3正在進行中&#8230;</string>
+    <string name="audio_extr_completed">音頻提取完成。</string>
+    <string name="audio_conv_completed">MP3音頻編碼完成。</string>
+    <string name="audio_extr_error">在音頻提取錯誤。</string>
+    <string name="audio_conv_error">MP3音頻編碼的過程中出現錯誤。</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg的安裝失敗。</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">下載</string>
+    <string name="dm_summary">打開系統的下載管理器</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">用戶界面</string>
+    <string name="lang_title">語</string>
+    <string name="lang_dialog_title">語言（需要重新啟動應用程序）：</string>
+    <string name="choose_theme_title">選擇主題</string>
+    <string-array name="choose_theme_entries">
+        <item>暗</item>
+        <item>光</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">快速入門</string>
+    <string name="quick_start_summ">打開一個快速入門教程</string>
+    <string name="quick_start_text">這裡只是喜好 \'Easy Video Downloader\'.
+		\n\n這個應用程序可以通過在視頻應用的分享按鈕，一邊看視頻。
+		\n\n然後選擇 \'Easy Video Downloader\' 你將有進一步的使用信息。
+		\n\n您還可以通過任何其他應用程序：即你的瀏覽器中共享任何視頻純文本鏈接。</string>
+		
+		<string name="quick_start_home">這裡只是喜好 \'Easy Video Downloader\'.
+		\n\n這個應用程序可以通過在視頻應用的分享按鈕，一邊看視頻。
+		\n\n然後選擇 \'Easy Video Downloader\' 你將有進一步的使用信息。
+		\n\n您還可以通過任何其他應用程序：即你的瀏覽器中共享任何視頻純文本鏈接。
+		\n\n如果你發現這個程序非常有用，請給我們分。  
+		\n\n要關閉此消息只是任意位置，在屏幕上或返回鍵。
+		</string>
+		
+    <string name="general_info_title">如何啟用通用</string>
+    <string name="general_info_summary">顯示一般的App啟動教程</string>
+    <string name="show_again_checkbox">再次顯示下一次</string>
+    <string name="ssh_info_title">Enable SSH how-to</string>
+    <string name="ssh_info_summary">Show a quick tip about remote downloading via SSH</string>
+    <string name="audio_tutorial_title">提取音頻教程</string>
+    <string name="audio_tutorial_summary">打開一個簡短的指南的音頻提取功能</string>
+    <string name="audio_tutorial_text">要提取轉換為MP3音頻下載的視頻：
+        \n\n*) 啟用音頻偏好和下載FFmpeg的;
+        \n\n*) 選擇提取的類型： 
+        \n\n\"只提取\" 將節約從視頻音頻流（WebM的文件包含 \"Ogg Vorbis\" 
+        音頻，FLV視頻MP4，3GPP和大型/中型持有 \"AAC\" 音頻流FLV小持有 \"mp3\");
+        \n\n\"提取和編碼為MP3\" 將轉換提取音頻的MP3，與選定的比特率編碼。
+        \n\n從現在起，將出現一個複選框，在下載確認框可見，當你點擊一個項目
+        在 Easy Video Downloader\'s 視頻列表。檢查時，視頻下載完成後的音頻提取工作將開始
+        （隱藏複選框，禁用音頻提取選項）。
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">下載文件夾</string>
+    <string name="standard_location_title">選擇標準文件夾</string>
+    <string name="chooser_swap_title">交換選擇器</string>
+    <string name="chooser_location_title">打開文件選擇</string>
+    <string name="chooser_location_summary">長按選擇一個文件夾</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">視頻文件</string>
+    <string name="enable_q_suffix_title">追加品質後綴“</string>
+    <string name="enable_q_suffix_summary">在文件名的末尾添加了視頻質量</string>
+    <string name="enable_rename_title">啟用文件重命名</string>
+    <string name="enable_rename_summary">之前的視頻文件重命名下載</string>
+    <string name="show_size_title">顯示文件大小</string>
+    <string name="show_size_summary">取視頻文件的大小上下載確認消息（慢）</string>
+    <string name="show_size_list_title">顯示所有的視頻大小</string>
+    <string name="show_size_list_summary">取可用的視頻列表中的每個項目的文件大小（慢得多）</string>
+    <string name="show_thumb_title">顯示預覽圖像</string>
+    <string name="show_thumb_summary">下載預覽圖像與視頻列表</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">音頻</string>
+    <string name="enable_audio_extraction_title">啟用音頻提取</string>
+    <string name="enable_audio_extraction_summary">從下載的視頻提取和轉換音頻</string>
+    <string name="mp3_bitrate_title">mp3編碼的比特率（kbps的）</string>
+    <string name="audio_extraction_type_title">提取類型</string>
+    <string name="enable_audio_q_suffix_title">附加音頻質量後綴</string>
+    <string name="enable_audio_q_suffix_summary">在文件名的末尾添加的音頻質量</string>
+    <string name="remove_video_title">去除視頻</string>
+    <string name="remove_video_summary">啟用視頻音頻提取成功後的文件刪除（警告：沒有確認）</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>僅提取</item>
+        <item>提取和編碼為MP3</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">通知</string>
+    <string name="enable_own_notification_title">啟用自己的通知</string>
+    <string name="enable_own_notification_summary">顯示一個全面的有關通知 Easy Video Downloader 下載</string>
+    <string name="download_manager_notification_title">管理系統的通知</string>
+    <string name="download_manager_notification_dialog_title">顯示系統下載管理中心通知：</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>雖然在進度和完成後，</item>
+        <item>雖然僅在建</item>
+        <item>從來沒有</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">通知違約</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader\'s 自己的通知違約</string>
+    <string-array name="notification_defaults_entries">
+        <item>聲音和振動</item>
+        <item>聲音和燈光</item>
+        <item>振動和指示燈</item>
+        <item>聲音，振動和指示燈</item>
+        <item>聲音</item>
+        <item>振動</item>
+        <item>燈火</item>
+        <item>沒什麼</item>
+        <item>沒什麼</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>

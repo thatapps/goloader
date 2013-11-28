@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">إعدادات</string>
+    <string name="title_activity_tutorials">الدروس</string>
+     
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">عامة التطبيق البرنامج التعليمي</string>
+	<string name="tutorial_msg_new">الآن سترى قائمة مع كافة برامج الترميز والصفات متوفرة للفيديو المحدد.
+يمكنك:
+	    \n\n*) هنا يمكنك ان ترى أحجام مختلفة من الفيديو وخيار لتحميل البرنامج.
+		\n\n*) طويل اضغط على عنصر والاختيار بين نسخ إلى الحافظة أو حصة الرابط كنص (أي إرسالها إلى تطبيق آخر).
+		\n\n*) لمعرفة حجم الفيديو والمعلومات تمكين الخيار في الإعداد.
+		\n\n*) بعض من الميزات الجديدة القادمة قريبا ...
+		</string>
+    <string name="loading">تحميل&#8230;</string>
+    <string name="error">خطأ!</string>
+    <string name="information">معلومات</string>
+    <string name="dialogs_negative">إلغاء</string>
+    <string name="wait">يرجى الانتظار&#8230;</string>
+    <string name="no_downloads_sys_app">\"التنزيلات\" نظام التطبيق لم يتم العثور على.</string>
+    <string name="ytd_useless">Easy Video Downloader لا يمكن تحميل ملفات الفيديو على هذا الجهاز.</string>
+    <string name="invalid_url">غير قادر على استرداد صفحة ويب. URL قد تكون غير صالحة.</string>
+    <string name="invalid_url_short">غير قادر على استرداد صفحة ويب.</string>
+    <string name="invalid_response">غير صالح استجابة الملقم HTTP.</string>
+    <string name="bad_link">الاطلاع على الرابط المقدمة.</string>
+    <string name="bad_link_dialog_msg">لا رابط فيديو صالح.</string>
+    <string name="no_net">لا يوجد اتصال متاح.</string>
+    <string name="no_net_dialog_msg">الرجاء، تمكين اتصال الشبكة الأولى.</string>
+    <string name="no_market">لا يوجد التطبيق السوق المتاحة.</string>
+    <string name="no_market_dialog_msg">من فضلك، تثبيت Google اللعب</string>
+    <string name="list_click_dialog_title">تأكيد تحميل ل:</string>
+    <string name="list_click_download_local">تحميل</string>
+    
+    <string name="rename_dialog_title">اسم الملف الجديد:</string>
+    <string name="rename_dialog_msg">لا تقم بإدخال ملحق الملف (مثل. أو MP4. FLV).</string>
+    <string name="unable_save">غير قادر على حفظ الفيديو!</string>
+    <string name="unable_save_dialog_msg">المجلد الوجهة غير متوفرة و / أو غير قابل للكتابة.</string>
+    <string name="ssh_info_tutorial_title">ترسل عبر SSH كيف ل</string>
+    <string name="ssh_info_tutorial_msg">تم تحميل الأوامر طويل واحد في الحافظة.
+		\n\nاختيار ملف تعريف في ConnectBot ومرة واحدة في قذيفة عن بعد، استعرض للوصول إلى المطلوب
+دليل، لصق الأمر (استخدام زر القائمة)، ودفع ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s غير مثبت!</string>
+    <string name="callConnectBot_dialog_msg">كنت بحاجة إلى هذا التطبيق المجاني لإرسال تنزيل الفيديو عبر SSH.</string>
+    <string name="callConnectBot_dialog_positive">تحميل</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\nتحميلها بنجاح.</string>
+    <string name="download_complete_dialog_positive">فتح</string>
+    <string name="downloading">تحميل&#8230;</string>
+    <string name="cancel_download_dialog_title">إلغاء تحميل?</string>
+    <string name="video_list_error_toast">خطأ في قائمة الفيديو.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">تحميل</string>
+    <string name="notification_downloading_pt2">ملفات الفيديو</string>
+    <string name="notification_no_downloads">لا التنزيلات في التقدم</string>
+    <string name="long_click_title">التعامل مع الرابط اختيارها:</string>
+    <string name="extsdcard_info_title">اسم مسار الوجهة القياسية</string>
+    <string name="extsdcard_info_msg">ويجري تحميل الملف في البداية في مستوى مجلد التحميل ومن ثم سيتم نقلها إلى الوجهة المحددة.</string>
+    <string name="ffmpeg_ready">FFMPEG جاهزة.</string>
+    <string name="confirm_audio_checkbox1">استخراج الصوت بعد التحميل</string>
+    <string name="confirm_audio_checkbox2">\n(كما هو معرف في إعدادات)</string>
+	<string name="login_required">الدخول ضروري.</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader لا يمكن معالجة هذا الفيديو.</string>
+    <string name="no_video_available">لا يوجد فيديو ل.</string>
+    <string name="retry_button_text">إعادة المحاولة</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>نسخ إلى الحافظة</item>
+        <item>حصة كنص</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>نسخ إلى الحافظة</item>
+        <item>حصة كنص</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">اهتمام!</string>
+    <string name="extsdcard_warning">غير قادر على الكتابة الملفات على SDCARD القابلة للإزالة.\nيتراجع على SDCARD القياسية.</string>
+    <string name="system_warning_title">هذا هو مجلد نظام</string>
+    <string name="system_warning_msg">والمسار الذي تم اختياره يرتد على الحمل SDCARD القياسية.</string>
+    <string name="sdcard_unmounted_warning">SDCARD لا شنت</string>
+    <string name="update_disabled_summary">العثور على توقيع مختلف (F-الروبوت؟)</string>
+    <string name="failed_download">فشل تحميل إزالتها</string>
+    <string name="new_v_download">وجدت. تحميل&#8230;</string>
+    <string name="new_v_install">تحميل. انقر فوق تثبيت.</string>
+    <string name="ffmpeg_download_dialog_title">مطلوب ملف إضافي. تحميله الآن؟</string>
+    <string name="ffmpeg_download_dialog_msg">لاستخراج وتحويل الصوت من تحميل الفيديو تحتاج إلى تحميل هذا الملف. هذا الملف هو آمن. Web link:</string>
+    <string name="ffmpeg_device_not_supported">جهاز غير معتمد حتى الآن.</string>
+    <string name="ffmpeg_support_mail">أرسل رسالة إلى المطور?
+        \nوسوف تقوم بمراجعة جميع المعلومات في تطبيق البريد الإلكتروني الخاص بك قبل إرسال أية بيانات.</string>
+    <string name="ffmpeg_download_notification">تحميل FFMPEG</string>
+    <string name="ffmpeg_install">تثبيت FFMPEG ثنائي&#8230;</string>
+    <string name="email_via">إرسال بريد إلكتروني عبر:</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader فيديو</string>
+    <string name="copy_error">خطأ أثناء النسخ</string>
+    <string name="copy_progress">نسخة الملف في التقدم&#8230;</string>
+    <string name="copy_ok">نسخ الانتهاء.</string>
+    <string name="download_remove_failed">خطأ: ملف مؤقت تحميلها يتم إزالة!</string>
+    <string name="download_failed">تحميل فشل!</string>
+    <string name="audio_extr_progress">استخراج الصوت في التقدم&#8230;</string>
+    <string name="audio_conv_progress">ترميز الصوت الى MP3 في التقدم&#8230;</string>
+    <string name="audio_extr_completed">الانتهاء من استخراج الصوت.</string>
+    <string name="audio_conv_completed">ترميز الصوت الى MP3 الانتهاء.</string>
+    <string name="audio_extr_error">خطأ أثناء استخراج الصوت.</string>
+    <string name="audio_conv_error">خطأ أثناء ترميز الصوت الى mp3.</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">فشل تثبيت FFMPEG.</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">التنزيلات</string>
+    <string name="dm_summary">نظام مفتوح مدير تحميل</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">واجهة المستخدم</string>
+    <string name="lang_title">لغة</string>
+    <string name="lang_dialog_title">لغات (تطبيق سيتم إعادة تشغيل بعد تغيير اللغة):</string>
+    <string name="choose_theme_title">اختيار موضوع</string>
+    <string-array name="choose_theme_entries">
+        <item>مظلم</item>
+        <item>ضوء</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">بداية سريعة</string>
+    <string name="quick_start_summ">فتح بداية البرنامج التعليمي سريعة</string>
+    <string name="quick_start_text">هنا هي مجرد تفضيل Easy Video Downloader.
+		\n\nيمكن الوصول إلى التطبيق الفعلي عبر زر حصة في التطبيق الفيديو، في حين مشاهدة شريط فيديو.
+		\n\nثم اختر \'Easy Video Downloader\' وسيكون لديك المزيد من معلومات الاستخدام.
+		\n\nيمكنك أيضا مشاركة أي رابط عادي نص الفيديو عبر أي التطبيق الأخرى: متصفح إنترنت إكسبلورر الخاص.</string>
+		
+		<string name="quick_start_home">Easy Video Downloader هنا هي مجرد تفضيل.
+		\n\nيمكن الوصول إلى هذا التطبيق عن طريق زر سهم في التطبيق الفيديو، في حين مشاهدة شريط فيديو.
+		\n\nثم اختر \'Easy Video Downloader\' وسيكون لديك المزيد من معلومات الاستخدام.
+		\n\nيمكنك أيضا مشاركة أي رابط عادي نص الفيديو عبر أي التطبيق الأخرى: متصفح إنترنت إكسبلورر الخاص بك.
+		\n\nإذا وجدت هذا التطبيق مفيد يرجى معدل لنا مع 5 نجوم.
+		\n\nلإغلاق هذه الرسالة فقط اضغط على أي مكان على الشاشة أو مفتاح العودة.
+		</string>
+		
+		
+    <string name="general_info_title">تمكين عامة لكيفية</string>
+    <string name="general_info_summary">مشاهدة التطبيق التعليمي العام على بدء التشغيل</string>
+    <string name="show_again_checkbox">تظهر مرة أخرى في المرة القادمة</string>
+    <string name="ssh_info_title">تمكين SSH كيف ل</string>
+    <string name="ssh_info_summary">تظهر معلومات سريعة حول تحميل عن بعد عبر SSH</string>
+    <string name="audio_tutorial_title">استخراج الصوت البرنامج التعليمي</string>
+    <string name="audio_tutorial_summary">فتح دليل موجز حول ميزة استخراج الصوت</string>
+    <string name="audio_tutorial_text">لاستخراج أو تحويل إلى MP3 الصوت من الفيديو التي تم تحميلها:
+        \n\n*) تمكين تفضيل الصوت وتحميل FFMPEG;
+        \n\n*) Cقحاب نوع الاستخراج: 
+        \n\n\"extract only\" من شأنها حفظ دفق الصوت من الفيديو كما هو (ملفات WebM تحتوي على \"Ogg Vorbis\" 
+        سمعي; MP4، 3GPP وكبيرة / متوسطة الفيديو FLV عقد \ "AAC \" تيار الصوت؛ يحمل FLV الصغيرة على \ "MP3 \");
+        \n\n\"استخراج وترميز إلى MP3 \ "سيتم تحويل الصوت المستخرج في MP3، ترميز مع معدل البت المختارة.
+        \n\nمن الآن فصاعدا، سوف مربع تظهر في مربع التأكيد تنزيل مرئية عند النقر فوق عنصر
+         في قائمة الفيديو و الفيديو \ 'تحميله. عندما كان، سيكون من المهم أن تبدأ استخراج الصوت على استكمال التحميل الفيديو
+(لإخفاء مربع، تعطيل الخيار لانتزاع الصوت).
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">تحميل المجلد</string>
+    <string name="standard_location_title">اختيار المجلد القياسية</string>
+    <string name="chooser_swap_title">مبادلة منتقي</string>
+    <string name="chooser_location_title">فتح ملف محدد</string>
+    <string name="chooser_location_summary">طويل اضغط على لتحديد مجلد</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">ملفات الفيديو</string>
+    <string name="enable_q_suffix_title">إلحاق لاحقة جودة</string>
+    <string name="enable_q_suffix_summary">إضافة نوعية الفيديو في نهاية اسم الملف</string>
+    <string name="enable_rename_title">تمكين ملف إعادة تسمية</string>
+    <string name="enable_rename_summary">إعادة تسمية ملف الفيديو قبل تنزيله</string>
+    <string name="show_size_title">مشاهدة حجم ملف</string>
+    <string name="show_size_summary">جلب حجم ملف الفيديو على رسالة تأكيد تحميل (أبطأ)</string>
+    <string name="show_size_list_title">مشاهدة جميع الأحجام الفيديو</string>
+    <string name="show_size_list_summary">جلب أحجام الملفات لكل بند في قائمة الفيديو المتوفرة (أبطأ بكثير)</string>
+    <string name="show_thumb_title">تظهر صورة المعاينة</string>
+    <string name="show_thumb_summary">تحميل صورة معاينة جنبا إلى جنب مع قائمة الفيديو</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">سمعي</string>
+    <string name="enable_audio_extraction_title">تمكين استخراج الصوت</string>
+    <string name="enable_audio_extraction_summary">استخراج وتحويل الصوت من الفيديو التي تم تحميلها</string>
+    <string name="mp3_bitrate_title">معدل البت لترميز MP3 (كيلوبت في الثانية)</string>
+    <string name="audio_extraction_type_title">نوع الاستخراج</string>
+    <string name="enable_audio_q_suffix_title">إلحاق جودة الصوت لاحقة</string>
+    <string name="enable_audio_q_suffix_summary">إضافة نوعية الصوت في نهاية اسم الملف</string>
+    <string name="remove_video_title">إزالة الفيديو</string>
+    <string name="remove_video_summary">تمكين فيديو حذف الملف بعد استخراج الصوت الناجحة (تحذير: لا تأكيد)</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>استخراج فقط</item>
+        <item>استخراج وترميز الى mp3</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">الإخطارات</string>
+    <string name="enable_own_notification_title">تمكين الإشعار الخاصة</string>
+    <string name="enable_own_notification_summary">مشاهدة إخطارا شامل حول جميع Easy Video Downloader التنزيلات</string>
+    <string name="download_manager_notification_title">إدارة نظام الإخطارات</string>
+    <string name="download_manager_notification_dialog_title">مشاهدة نظام تحميل الإخطارات مدير:</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>بينما في التقدم وبعد الانتهاء</item>
+        <item>بينما في التقدم فقط</item>
+        <item>أبدا</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">التخلف عن الإخطار</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader التخلف عن الإخطار الخاصة</string>
+    <string-array name="notification_defaults_entries">
+        <item>Sound and Vibration</item>
+        <item>Sound and Lights</item>
+        <item>Vibration and Lights</item>
+        <item>Sound, Vibration and Lights</item>
+        <item>Sound</item>
+        <item>Vibration</item>
+        <item>Lights</item>
+        <item>Nothing</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+
+
+    
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>

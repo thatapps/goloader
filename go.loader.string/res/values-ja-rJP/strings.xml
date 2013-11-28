@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_tutorials">チュートリアル</string>
+     <string name="title_activity_about">約</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">一般アプリケーションチュートリアル</string>
+	<string name="tutorial_msg_new">今、あなたは、選択したビデオのために利用可能なすべてのコーデックや資質とリストが表示されます。 
+	    あなたができる:
+	    \n\n*) ここでは、映像とそれをダウンロードするためのオプションの異なるサイズを見ることができます。
+		\n\n*) 項目を長押ししてコピーの間のテキストとしてクリップボードまたは共有リンク（すなわち別のアプリケーションに送信する）を選択します。
+		\n\n*) ビデオのサイズと情報を表示するには、設定でオプションを有効にしてください。
+		\n\n*) もうすぐもう少し新機能...
+		</string>
+    <string name="loading">積載&#8230;</string>
+    <string name="error">エラー!</string>
+    <string name="information">情報</string>
+    <string name="dialogs_negative">キャンセル</string>
+    <string name="wait">しばらくお待ちください&#8230;</string>
+    <string name="no_downloads_sys_app">\"ダウンロード\" システムアプリケーションが見つかりません.</string>
+    <string name="ytd_useless">Easy Video Downloader このデバイス上のファイルをダウンロードできない.</string>
+    <string name="invalid_url">Webページを取得できません。 URLが無効である可能性があり.</string>
+    <string name="invalid_url_short">Webページを取得できません.</string>
+    <string name="invalid_response">無効なHTTPサーバの応答.</string>
+    <string name="bad_link">提供されたリンクを確認してください.</string>
+    <string name="bad_link_dialog_msg">無効なビデオリンク.</string>
+    <string name="no_net">利用可能な接続なし.</string>
+    <string name="no_net_dialog_msg">ください、最初のネットワーク接続を可能にする.</string>
+    <string name="no_market">利用可能な市場のAppん.</string>
+    <string name="no_market_dialog_msg">、Googleのプレイをインストールしてください</string>
+    <string name="list_click_dialog_title">ためにダウンロードを確認:</string>
+    <string name="list_click_download_local">ダウンロード</string>
+    
+    <string name="rename_dialog_title">新しいファイル名:</string>
+    <string name="rename_dialog_msg">ファイル拡張子（。のMP4または。FLVなど）を入力しないでください。</string>
+    <string name="unable_save">ビデオを保存することができません!</string>
+    <string name="unable_save_dialog_msg">保存先のフォルダが利用でき、および/または書き込みできないではありません。</string>
+    <string name="ssh_info_tutorial_title">操作方法へのSSH経由で送る</string>
+    <string name="ssh_info_tutorial_msg">A single long command has been loaded in the clipboard.
+		\n\nChoose a profile in ConnectBot and once in your remote shell, browse to the desired 
+		directory, PASTE the command (use the menu button) and push ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s インストールされていません!</string>
+    <string name="callConnectBot_dialog_msg">この無料アプリは、SSHを介してビデオのダウンロードを送信する必要が.</string>
+    <string name="callConnectBot_dialog_positive">ダウンロード</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\n正常にダウンロード.</string>
+    <string name="download_complete_dialog_positive">オープン</string>
+    <string name="downloading">ダウンロード&#8230;</string>
+    <string name="cancel_download_dialog_title">ダウンロードキャンセル?</string>
+    <string name="video_list_error_toast">ビデオリストにエラー.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">ダウンロード</string>
+    <string name="notification_downloading_pt2">ビデオファイル</string>
+    <string name="notification_no_downloads">進行中のダウンロードしない</string>
+    <string name="long_click_title">選択したリンクを扱う:</string>
+    <string name="extsdcard_info_title">標準の送信先パス名</string>
+    <string name="extsdcard_info_msg">ファイルは、標準的なダウンロードフォルダに最初にダウンロードされ、次いで選択された宛先に移動され.</string>
+    <string name="ffmpeg_ready">FFmpegは準備.</string>
+    <string name="confirm_audio_checkbox1">ダウンロード後にオーディオを抽出</string>
+    <string name="confirm_audio_checkbox2">\n(などの設定で定義されている)</string>
+	<string name="login_required">ログインが必要.</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader しないこのビデオを扱うことができる。</string>
+    <string name="no_video_available">利用可能なビデオません.</string>
+    <string name="retry_button_text">リトライ</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>クリップボードにコピー</item>
+        <item>テキストとして共有</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>クリップボードにコピー</item>
+        <item>テキストとして共有</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">注目!</string>
+    <string name="extsdcard_warning">取り外し可能なSDカードにファイルを書き込むことができません.\n標準のSDカードに戻って落下.</string>
+    <string name="system_warning_title">これはシステムフォルダです</string>
+    <string name="system_warning_msg">選択されたパスは、標準的なSDカードのダウンロードフォルダにフォールバックします.</string>
+    <string name="sdcard_unmounted_warning">SDカードがマウントされていない</string>
+    <string name="update_disabled_summary">別の署名（F-ドロイド？）発見</string>
+    <string name="failed_download">失敗したダウンロード削除</string>
+    <string name="new_v_download">発見. ダウンロード&#8230;</string>
+    <string name="new_v_install">ダウンロード. インストールするには、クリックして.</string>
+    <string name="ffmpeg_download_dialog_title">追加のファイルが必要です。今それをダウンロードしますか？</string>
+    <string name="ffmpeg_download_dialog_msg">このファイルをダウンロードする必要がありますダウンロードしたビデオからオーディオを抽出し、変換する。このファイルは安全です。 Webリンク:</string>
+    <string name="ffmpeg_device_not_supported">デバイスがまだサポートされていません.</string>
+    <string name="ffmpeg_support_mail">開発者にメールを送信?
+        \nあなたは、任意のデータを送信する前にあなたの電子メールアプリケーション内のすべての情報を確認します。</string>
+    <string name="ffmpeg_download_notification">FFmpegはのダウンロード</string>
+    <string name="ffmpeg_install">FFmpegはバイナリをインストールする&#8230;</string>
+    <string name="email_via">を経由してメールを送信:</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader ビデオ</string>
+    <string name="copy_error">コピー中にエラーが発生しました</string>
+    <string name="copy_progress">進行中のファイルのコピー&#8230;</string>
+    <string name="copy_ok">完成したコピー.</string>
+    <string name="download_remove_failed">エラー：一時的にダウンロードしたファイルは削除されません！</string>
+    <string name="download_failed">ダウンロードに失敗しました!</string>
+    <string name="audio_extr_progress">進行中のオーディオの抽出&#8230;</string>
+    <string name="audio_conv_progress">進行中のmp3にオーディオエンコーディング&#8230;</string>
+    <string name="audio_extr_completed">オーディオ抽出が完了しました。</string>
+    <string name="audio_conv_completed">mp3のオーディオエンコードが完了しました。</string>
+    <string name="audio_extr_error">オーディオ抽出中にエラーが発生しました。</string>
+    <string name="audio_conv_error">mp3の音声符号化中にエラーが発生しました。</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpegのインストールに失敗しました。</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">ダウンロード</string>
+    <string name="dm_summary">オープンシステムのダウンロードマネージャ</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">ユーザーインタフェース</string>
+    <string name="lang_title">言語</string>
+    <string name="lang_dialog_title">言語（ニーズアプリケーションは再起動）：</string>
+    <string name="choose_theme_title">テーマを選択してください</string>
+    <string-array name="choose_theme_entries">
+        <item>ダーク</item>
+        <item>ライト</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">クイックスタート</string>
+    <string name="quick_start_summ">クイック·スタート·チュートリアルを開く</string>
+    <string name="quick_start_text">ここのためだけの設定がある \'Easy Video Downloader\'.
+		\n\nビデオを見ながら、このアプリは、ビデオAppで[共有]ボタンを介してアクセスすることができます。
+		\n\n次に選ぶ \'Easy Video Downloader\' そして、あなたはさらに使用量の情報を持つことになります。
+		\n\nブラウザをすなわち：あなたはまた、他のアプリケーションを介して任意のビデオプレインテキストリンクを共有することができます。</string>
+		
+		<string name="quick_start_home">ここのためだけの設定がある \'Easy Video Downloader\'.
+		\n\nビデオを見ながら、このアプリは、ビデオAppで[共有]ボタンを介してアクセスすることができます。
+		\n\n次に選ぶ \'Easy Video Downloader\' そして、あなたはさらに使用量の情報を持つことになります。
+		\n\nブラウザをすなわち：あなたはまた、他のアプリケーションを介して任意のビデオプレインテキストリンクを共有することができます。
+		\n\nこのアプリが役立つ場合は5つの星の速度問い合わせしてください。  
+		\n\nこのメッセージを閉じるには、単に画面やバックキーで任意の場所をタップします。
+		</string>
+		
+    <string name="general_info_title">ハウツーへの一般を有効</string>
+    <string name="general_info_summary">起動時に一般的なアプリケーションのチュートリアルを表示する</string>
+    <string name="show_again_checkbox">次回を表示</string>
+    <string name="ssh_info_title">Enable SSH how-to</string>
+    <string name="ssh_info_summary">Show a quick tip about remote downloading via SSH</string>
+    <string name="audio_tutorial_title">オーディオ抽出チュートリアル</string>
+    <string name="audio_tutorial_summary">オーディオ抽出機能についての簡単なガイドを開きます。</string>
+    <string name="audio_tutorial_text">ダウンロードしたビデオからオーディオを抽出したり、mp3に変換するには:
+        \n\n*) オーディオプリファレンスを有効にして、FFmpegのをダウンロード;
+        \n\n*) 抽出タイプの選択： 
+        \n\n\"のみを抽出\" そのままビデオからオーディオストリームを節約します（WebMのファイルが含まれている \"Ogg Vorbis\" 
+        オーディオ;、MP4、3GPPおよび中規模/大FLVビデオがホールド \"AAC\" オーディオストリーム、FLV小さいが成り立つ \"mp3\");
+        \n\n\"抽出してmp3にエンコード\" 選択されたビットレートでそれをエンコード、MP3で抽出された音声に変換されます。
+        \n\nあなたがアイテムをクリックすると、今から、チェックボックスが表示されダウンロード確認のボックスに表示されます
+        で Easy Video Downloader\'s ビデオリスト。チェックボックスをオンにすると、オーディオ抽出ジョブはビデオダウンロード完了時に開始します
+        （チェックボックスを非表示にするには、オーディオ抽出オプションを無効にします）。
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">フォルダーをダウンロード</string>
+    <string name="standard_location_title">標準フォルダを選択してください</string>
+    <string name="chooser_swap_title">チューをスワップ</string>
+    <string name="chooser_location_title">ファイル選択ダイアログを開く</string>
+    <string name="chooser_location_summary">フォルダを選択するには長押し</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">ビデオファイル</string>
+    <string name="enable_q_suffix_title">品質のサフィックスを追加します</string>
+    <string name="enable_q_suffix_summary">ファイル名の末尾にビデオ品質を追加する</string>
+    <string name="enable_rename_title">ファイル名の変更を有効にする</string>
+    <string name="enable_rename_summary">それをダウンロードする前に、ビデオファイルの名前を変更</string>
+    <string name="show_size_title">ファイルサイズを表示する</string>
+    <string name="show_size_summary">ダウンロード確認メッセージ（低速）にビデオファイルのサイズを取得する</string>
+    <string name="show_size_list_title">すべてのビデオサイズを表示</string>
+    <string name="show_size_list_summary">利用可能なビデオのリストの各項目のファイルサイズを（非常に遅く）フェッチ</string>
+    <string name="show_thumb_title">プレビュー画像を表示</string>
+    <string name="show_thumb_summary">ビデオリストと一緒に、プレビューイメージのダウンロード</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">オーディオ</string>
+    <string name="enable_audio_extraction_title">オーディオ抽出を有効に</string>
+    <string name="enable_audio_extraction_summary">ダウンロードしたビデオからオーディオを抽出し、変換</string>
+    <string name="mp3_bitrate_title">mp3エンコード（キロビット）のためビットレート</string>
+    <string name="audio_extraction_type_title">抽出のタイプ</string>
+    <string name="enable_audio_q_suffix_title">オーディオ品質のサフィックスを追加します</string>
+    <string name="enable_audio_q_suffix_summary">ファイル名の末尾にオーディオ品質を追加する</string>
+    <string name="remove_video_title">ビデオ·除去</string>
+    <string name="remove_video_summary">（：なし確認警告）成功したオーディオを抽出した後、ビデオファイルの削除を有効にする</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>のみ抽出</item>
+        <item>抽出してmp3にエンコード</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">通知</string>
+    <string name="enable_own_notification_title">独自の通知を有効にする</string>
+    <string name="enable_own_notification_summary">すべてについて包括的な通知を表示する Easy Video Downloader ダウンロード</string>
+    <string name="download_manager_notification_title">システムの通知を管理する</string>
+    <string name="download_manager_notification_dialog_title">表示システムは、マネージャ通知をダウンロード：</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>進行中と完成後しばらく</item>
+        <item>のみ進行中の間、</item>
+        <item>決して</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">通知のデフォルト</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader\'s 独自の通知のデフォルト</string>
+    <string-array name="notification_defaults_entries">
+        <item>音と振動</item>
+        <item>サウンドとライト</item>
+        <item>振動とライト</item>
+        <item>音、振動とライト</item>
+        <item>サウンド</item>
+        <item>振動</item>
+        <item>ライト</item>
+        <item>何も</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>

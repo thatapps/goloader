@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">การตั้งค่า</string>
+    <string name="title_activity_tutorials">tutorials</string>
+     
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">การกวดวิชาทั่วไป App</string>
+	<string name="tutorial_msg_new">ตอนนี้คุณจะเห็นรายชื่อทั้งหมดที่มีตัวแปลงสัญญาณและคุณภาพใช้ได้สำหรับวิดีโอที่เลือก 
+	    คุณสามารถ:
+	    \n\n*) ที่นี่คุณสามารถดูขนาดแตกต่างกันของวิดีโอและเลือกที่จะดาวน์โหลดได้
+		\n\n*) ยาวกดรายการและเลือกระหว่างคัดลอกไปยังคลิปบอร์ดหรือการเชื่อมโยงร่วมกันเป็นข้อความ (เช่นส่งเพื่อ app อื่น)
+		\n\n*) เพื่อดูขนาดวิดีโอและข้อมูลเปิดใช้ตัวเลือกในการติดตั้ง
+		\n\n*) เพิ่มเติมบางส่วนคุณสมบัติใหม่เร็ว ๆ นี้ ...
+		</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="error">Error!</string>
+    <string name="information">ข้อมูล</string>
+    <string name="dialogs_negative">ยกเลิก</string>
+    <string name="wait">โปรดรอสักครู่&#8230;</string>
+    <string name="no_downloads_sys_app">\"ดาวน์โหลด\" ระบบไม่พบ App.</string>
+    <string name="ytd_useless">Easy Video Downloader ไม่สามารถดาวน์โหลดไฟล์บนอุปกรณ์นี้</string>
+    <string name="invalid_url">ไม่สามารถเรียกหน้าเว็บ URL ที่อาจไม่ถูกต้อง</string>
+    <string name="invalid_url_short">ไม่สามารถเรียกหน้าเว็บ</string>
+    <string name="invalid_response">ไม่ถูกต้องตอบสนองของเซิร์ฟเวอร์ HTTP</string>
+    <string name="bad_link">ตรวจสอบลิงค์ที่ให้ไว้</string>
+    <string name="bad_link_dialog_msg">ไม่ได้วิดีโอลิงก์ที่ถูกต้อง.</string>
+    <string name="no_net">ไม่มีการเชื่อมต่อ.</string>
+    <string name="no_net_dialog_msg">กรุณาเปิดใช้งานการเชื่อมต่อเครือข่ายแรก.</string>
+    <string name="no_market">App ตลาดไม่มี.</string>
+    <string name="no_market_dialog_msg">โปรดติดตั้ง Google เล่น</string>
+    <string name="list_click_dialog_title">ยืนยันดาวน์โหลด:</string>
+    <string name="list_click_download_local">ดาวน์โหลด</string>
+    
+    <string name="rename_dialog_title">ชื่อไฟล์ใหม่:</string>
+    <string name="rename_dialog_msg">อย่าใส่นามสกุลของไฟล์ (เช่น MP4. หรือ flv.).</string>
+    <string name="unable_save">ไม่สามารถบันทึกวิดีโอ!</string>
+    <string name="unable_save_dialog_msg">โฟลเดอร์ปลายทางไม่มีให้บริการและ / หรือไม่สามารถเขียน</string>
+    <string name="ssh_info_tutorial_title">ส่งผ่านทางวิธีการ</string>
+    <string name="ssh_info_tutorial_msg">คำสั่งเดียวยาวได้รับการโหลดในคลิปบอร์ด
+		\n\nChoose a profile in ConnectBot and once in your remote shell, browse to the desired 
+		directory, PASTE the command (use the menu button) and push ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s not installed!</string>
+    <string name="callConnectBot_dialog_msg">You need this free App to send the video download via SSH.</string>
+    <string name="callConnectBot_dialog_positive">ดาวน์โหลด</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\nดาวน์โหลดที่ประสบความสำเร็จ.</string>
+    <string name="download_complete_dialog_positive">เปิด</string>
+    <string name="downloading">ดาวน์โหลด&#8230;</string>
+    <string name="cancel_download_dialog_title">ยกเลิกการดาวน์โหลด?</string>
+    <string name="video_list_error_toast">ข้อผิดพลาดในรายการวิดีโอ</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">ดาวน์โหลด</string>
+    <string name="notification_downloading_pt2">ไฟล์วิดีโอ</string>
+    <string name="notification_no_downloads">ดาวน์โหลดไม่มีความคืบหน้าใน</string>
+    <string name="long_click_title">จัดการการเชื่อมโยงที่เลือก:</string>
+    <string name="extsdcard_info_title">เส้นทางปลายทางไม่มาตรฐาน</string>
+    <string name="extsdcard_info_msg">ไฟล์จะถูกดาวน์โหลดแรกในโฟลเดอร์ดาวน์โหลดมาตรฐานแล้วจะถูกย้ายไปยังปลายทางที่เลือก</string>
+    <string name="ffmpeg_ready">FFmpeg พร้อม.</string>
+    <string name="confirm_audio_checkbox1">เสียงสารสกัดหลังจากดาวน์โหลด</string>
+    <string name="confirm_audio_checkbox2">\n(ตามที่กำหนดไว้ในการตั้งค่า)</string>
+	<string name="login_required">ต้องเข้าสู่ระบบ.</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader ไม่สามารถจัดการกับวิดีโอนี้.</string>
+    <string name="no_video_available">วิดีโอที่มีอยู่ไม่มี.</string>
+    <string name="retry_button_text">พยายามอีก</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>คัดลอกไปที่คลิปบอร์ด</item>
+        <item>แบ่งปันเป็นข้อความ</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>คัดลอกไปที่คลิปบอร์ด</item>
+        <item>แบ่งปันเป็นข้อความ</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">ความสนใจ!</string>
+    <string name="extsdcard_warning">ไม่สามารถเขียนไฟล์บน sdcard ที่ถอดออกได้.\nตกกลับมาอยู่บนมาตรฐาน sdcard</string>
+    <string name="system_warning_title">เป็นโฟลเดอร์ระบบ</string>
+    <string name="system_warning_msg">เส้นทางเลือกที่จะถอยกลับในโฟลเดอร์มาตรฐาน sd การ์ดดาวน์โหลด</string>
+    <string name="sdcard_unmounted_warning">sdcard ไม่ติด</string>
+    <string name="update_disabled_summary">พบลายเซ็นที่แตกต่างกัน (F-Droid?)</string>
+    <string name="failed_download">การดาวน์โหลดล้มเหลวลบออก</string>
+    <string name="new_v_download">พบว่า ดาวน์โหลด&#8230;</string>
+    <string name="new_v_install">ดาวน์โหลด คลิกที่นี่เพื่อติดตั้ง</string>
+    <string name="ffmpeg_download_dialog_title">แฟ้มเพิ่มเติมเป็นสิ่งจำเป็น ดาวน์โหลดได้ในขณะนี้?</string>
+    <string name="ffmpeg_download_dialog_msg">แยกและแปลงเสียงจากวิดีโอดาวน์โหลดคุณจำเป็นต้องดาวน์โหลดไฟล์นี้ ไฟล์นี้มีความปลอดภัย เว็บลิงค์:</string>
+    <string name="ffmpeg_device_not_supported">อุปกรณ์ยังไม่รองรับ</string>
+    <string name="ffmpeg_support_mail">ส่งอีเมลไปยังนักพัฒนา?
+        \nคุณจะทบทวนข้อมูลในโปรแกรมอีเมลของคุณทั้งหมดก่อนที่จะส่งข้อมูลใด ๆ</string>
+    <string name="ffmpeg_download_notification">ดาวน์โหลด FFmpeg</string>
+    <string name="ffmpeg_install">การติดตั้งไบนารี FFmpeg&#8230;</string>
+    <string name="email_via">ส่งอีเมลผ่าน:</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader วีดีโอ</string>
+    <string name="copy_error">ข้อผิดพลาดระหว่างการคัดลอก</string>
+    <string name="copy_progress">คัดลอกแฟ้มในความคืบหน้า&#8230;</string>
+    <string name="copy_ok">คัดลอกเสร็จ.</string>
+    <string name="download_remove_failed">ข้อผิดพลาด: ไฟล์ที่ดาวน์โหลดชั่วคราวไม่ออก!</string>
+    <string name="download_failed">การดาวน์โหลดล้มเหลว!</string>
+    <string name="audio_extr_progress">การสกัดเสียงในความคืบหน้า&#8230;</string>
+    <string name="audio_conv_progress">การเข้ารหัสเสียงไปยัง MP3 ในความคืบหน้า0&#8230;</string>
+    <string name="audio_extr_completed">การสกัดเสียงเสร็จ</string>
+    <string name="audio_conv_completed">การเข้ารหัสเสียงไปยัง MP3 เสร็จ</string>
+    <string name="audio_extr_error">ข้อผิดพลาดระหว่างการสกัดเสียง</string>
+    <string name="audio_conv_error">ข้อผิดพลาดระหว่างการเข้ารหัสเสียงไปยัง MP3</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">การติดตั้งล้มเหลว FFmpeg</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">ดาวน์โหลด</string>
+    <string name="dm_summary">เปิดตัวจัดการการดาวน์โหลดระบบ</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">ส่วนติดต่อผู้ใช้</string>
+    <string name="lang_title">ภาษา</string>
+    <string name="lang_dialog_title">ภาษา (การใช้งานที่ตอบสนองความต้องการเริ่มต้นใหม่):</string>
+    <string name="choose_theme_title">เลือกธีม</string>
+    <string-array name="choose_theme_entries">
+        <item>มืด</item>
+        <item>แสง</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">เริ่มต้นอย่างรวดเร็ว</string>
+    <string name="quick_start_summ">เปิดสอนการเริ่มต้นอย่างรวดเร็ว</string>
+    <string name="quick_start_text">นี่เป็นเพียงการตั้งค่าสำหรับการเป็น \'Easy Video Downloader\'.
+		\n\nApp นี้สามารถเข้าถึงได้ผ่านทางปุ่มหุ้นใน App วิดีโอในขณะที่ดูวิดีโอ
+		\n\nแล้วเลือก \'Easy Video Downloader\' และคุณจะมีข้อมูลการใช้งานต่อไป
+		\n\nนอกจากนี้คุณยังสามารถแบ่งปันวิดีโอลิงก์ข้อความธรรมดาผ่านทาง App อื่น ๆ : คือเบราว์เซอร์ของคุณ</string>
+		
+		<string name="quick_start_home">นี่เป็นเพียงการตั้งค่าสำหรับการเป็น \'Easy Video Downloader\'.
+		\n\nApp นี้สามารถเข้าถึงได้ผ่านทางปุ่มหุ้นใน App วิดีโอในขณะที่ดูวิดีโอ
+		\n\nแล้วเลือก \'Easy Video Downloader\' และคุณจะมีข้อมูลการใช้งานต่อไป
+		\n\nนอกจากนี้คุณยังสามารถแบ่งปันวิดีโอลิงก์ข้อความธรรมดาผ่านทาง App อื่น ๆ : คือเบราว์เซอร์ของคุณ
+		\n\nหากคุณพบว่า app นี้มีประโยชน์โปรดอัตราเราด้วย 5 ดาว 
+		\n\nเพื่อปิดข้อความนี้เพียงแค่แตะที่ใดก็ได้บนหน้าจอหรือปุ่มย้อนกลับ
+		</string>
+		
+    <string name="general_info_title">เปิดใช้งานทั่วไปวิธีการ</string>
+    <string name="general_info_summary">แสดง App สอนทั่วไปในการเริ่มต้น</string>
+    <string name="show_again_checkbox">แสดงอีกครั้งในครั้งต่อไป</string>
+    <string name="ssh_info_title">Enable SSH how-to</string>
+    <string name="ssh_info_summary">แสดงเคล็ดลับอย่างรวดเร็วเกี่ยวกับการดาวน์โหลดระยะไกลผ่านทาง SSH</string>
+    <string name="audio_tutorial_title">สอนการสกัดเสียง</string>
+    <string name="audio_tutorial_summary">เปิดคู่มือสั้น ๆ เกี่ยวกับคุณลักษณะการสกัดเสียง</string>
+    <string name="audio_tutorial_text">จะสกัดหรือแปลงเป็น MP3 เสียงจากวิดีโอดาวน์โหลด:
+        \n\n*) เปิดใช้งานการตั้งค่าเสียงและดาวน์โหลด FFmpeg;
+        \n\n*) เลือกประเภทการสกัด:
+        \n\n\"สารสกัดเพียง\" จะรักษากระแสข้อมูลเสียงจากวิดีโอที่เป็นอยู่ (ไฟล์ WebM มี \"Ogg Vorbis\" 
+        เสียง FLV วิดีโอ MP4, 3GPP และขนาดใหญ่ / กลางถือ \"AAC\" กระแสข้อมูลเสียง; FLV ถือขนาดเล็ก \"mp3\");
+        \n\n\"สารสกัดและการเข้ารหัสเป็น MP3\" จะแปลงเสียงสกัดในรูปแบบ MP3, เข้ารหัสด้วยบิตเรตที่เลือก
+        \n\nจากนี้ไปช่องทำเครื่องหมายจะปรากฏในช่องการยืนยันดาวน์โหลดปรากฏเมื่อคุณคลิกรายการ
+         ในวิดีโอ Tube รายการดาวน์โหลดวิดีโอ เมื่อการตรวจสอบงานการสกัดเสียงจะเริ่มต้นเมื่อเสร็จสิ้นการดาวน์โหลดวิดีโอ
+         (เพื่อซ่อนช่องทำเครื่องหมายปิดการใช้งานตัวเลือกการสกัดเสียง).
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">ดาวน์โหลดโฟลเดอร์</string>
+    <string name="standard_location_title">เลือกโฟลเดอร์มาตรฐาน</string>
+    <string name="chooser_swap_title">swap เลือก</string>
+    <string name="chooser_location_title">เปิดแฟ้มเอกสาร-</string>
+    <string name="chooser_location_summary">ยาวกดเพื่อเลือกโฟลเดอร์</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">ไฟล์วิดีโอ</string>
+    <string name="enable_q_suffix_title">ผนวกต่อท้ายที่มีคุณภาพ</string>
+    <string name="enable_q_suffix_summary">เพิ่มคุณภาพของวิดีโอที่ท้ายชื่อไฟล์</string>
+    <string name="enable_rename_title">เปิดใช้งานการเปลี่ยนชื่อไฟล์</string>
+    <string name="enable_rename_summary">เปลี่ยนชื่อไฟล์วิดีโอก่อนที่จะดาวน์โหลดมัน</string>
+    <string name="show_size_title">แสดงขนาดของไฟล์</string>
+    <string name="show_size_summary">Fetch ขนาดของไฟล์วิดีโอบนข้อความยืนยันดาวน์โหลด (ช้า)</string>
+    <string name="show_size_list_title">แสดงขนาดของวิดีโอทั้งหมด</string>
+    <string name="show_size_list_summary">Fetch ขนาดไฟล์สำหรับทุกรายการในรายการของวิดีโอที่มีอยู่ (ช้ามาก)</string>
+    <string name="show_thumb_title">แสดงภาพตัวอย่าง</string>
+    <string name="show_thumb_summary">ดาวน์โหลดภาพตัวอย่างพร้อมกับรายการวิดีโอ</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">เครื่องเสียง</string>
+    <string name="enable_audio_extraction_title">เปิดใช้งานการสกัดเสียง</string>
+    <string name="enable_audio_extraction_summary">แยกและแปลงเสียงจากวิดีโอดาวน์โหลด</string>
+    <string name="mp3_bitrate_title">บิตสำหรับการเข้ารหัส mp3 (Kbps)</string>
+    <string name="audio_extraction_type_title">ประเภทการสกัด</string>
+    <string name="enable_audio_q_suffix_title">ผนวกต่อท้ายคุณภาพเสียง</string>
+    <string name="enable_audio_q_suffix_summary">เพิ่มคุณภาพเสียงที่ท้ายชื่อไฟล์</string>
+    <string name="remove_video_title">ลบวิดีโอ</string>
+    <string name="remove_video_summary">เปิดใช้งานการลบไฟล์วิดีโอหลังจากที่ประสบความสำเร็จในการสกัดเสียง (คำเตือน: การยืนยันไม่ได้)</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>สารสกัดเพียง</item>
+        <item>สารสกัดและการเข้ารหัสเป็น MP3</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">การแจ้งเตือน</string>
+    <string name="enable_own_notification_title">เปิดใช้งานการแจ้งเตือนของตัวเอง</string>
+    <string name="enable_own_notification_summary">แสดงการแจ้งเตือนที่ครอบคลุมเกี่ยวกับทั้งหมด Easy Video Downloader ดาวน์โหลด</string>
+    <string name="download_manager_notification_title">จัดการการแจ้งเตือนระบบ</string>
+    <string name="download_manager_notification_dialog_title">ระบบแสดงการแจ้งเตือนดาวน์โหลดผู้จัดการ:</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>ในขณะที่ความคืบหน้าและหลังจากเสร็จสิ้นการ</item>
+        <item>ในขณะที่ความคืบหน้าเพียงอย่างเดียว</item>
+        <item>ไม่เคย</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">ค่าเริ่มต้นประกาศ</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader\'s ค่าเริ่มต้นการแจ้งเตือนของตัวเอง</string>
+    <string-array name="notification_defaults_entries">
+        <item>Sound and Vibration</item>
+        <item>Sound and Lights</item>
+        <item>Vibration and Lights</item>
+        <item>Sound, Vibration and Lights</item>
+        <item>Sound</item>
+        <item>Vibration</item>
+        <item>Lights</item>
+        <item>Nothing</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+
+
+    
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>

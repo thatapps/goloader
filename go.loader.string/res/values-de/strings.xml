@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_tutorials">Tutorials</string>
+     
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">General App Tutorial</string>
+	<string name="tutorial_msg_new">Jetzt sehen Sie eine Liste mit allen Codecs und Qualitäten für den gewählten Video. 
+	    Sie können:
+	    \n\n*) Hier sehen Sie verschiedene Größen von Video-und Option, um es herunterzuladen.
+		\n\n*) Lang drücken ein Element, und wählen Sie zwischen die Zwischenablage kopieren oder teilen Link als Text (dh zu einer anderen Anwendung zu senden).
+		\n\n*) Um Video-Größe und Informationen finden Sie ermöglichen Option bei der Festlegung.
+		\n\n*) Einige weitere neue Funktionen in Kürze ...
+		</string>
+    <string name="loading">Verladung&#8230;</string>
+    <string name="error">Fehler!</string>
+    <string name="information">Informationen</string>
+    <string name="dialogs_negative">stornieren</string>
+    <string name="wait">Bitte warten&#8230;</string>
+    <string name="no_downloads_sys_app">\"Downloads\" System-App nicht gefunden.</string>
+    <string name="ytd_useless">Easy Video Downloader kann keine Dateien auf diesem Gerät.</string>
+    <string name="invalid_url">Kann Webseite abzurufen. URL möglicherweise ungültig.</string>
+    <string name="invalid_url_short">Kann Webseite abrufen.</string>
+    <string name="invalid_response">Ungültige HTTP Server-Antwort.</string>
+    <string name="bad_link">Überprüfen Sie den angegebenen Link.</string>
+    <string name="bad_link_dialog_msg">Not a valid Video Link.</string>
+    <string name="no_net">Keine Verbindung verfügbar.</string>
+    <string name="no_net_dialog_msg">Bitte aktivieren Sie eine Netzwerkverbindung ersten.</string>
+    <string name="no_market">Kein Markt App verfügbar.</string>
+    <string name="no_market_dialog_msg">Bitte installieren Sie Google Play</string>
+    <string name="list_click_dialog_title">Bestätigen downloaden für:</string>
+    <string name="list_click_download_local">Download</string>
+    
+    <string name="rename_dialog_title">New Dateinamen:</string>
+    <string name="rename_dialog_msg">Geben Sie nicht die Datei-Endung (wie. Mp4 oder. Flv).</string>
+    <string name="unable_save">Kann das Video zu speichern!</string>
+    <string name="unable_save_dialog_msg">Zielordner ist nicht vorhanden und / oder nicht beschreibbar.</string>
+    <string name="ssh_info_tutorial_title">Per SSH How-To</string>
+    <string name="ssh_info_tutorial_msg">Ein einziger langer Befehl in die Zwischenablage geladen.
+		\n\nWählen Sie ein Profil in ConnectBot und einmal in Ihrem Remote-Shell auf den gewünschten durchsuchen
+Verzeichnis, fügen Sie den Befehl (verwenden Sie die Menü-Taste) und drücken Sie ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s installiert!</string>
+    <string name="callConnectBot_dialog_msg">Sie müssen diese kostenlose App, um den Video-Download via SSH senden.</string>
+    <string name="callConnectBot_dialog_positive">Download</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\nErfolgreich heruntergeladen.</string>
+    <string name="download_complete_dialog_positive">Öffnen</string>
+    <string name="downloading">Herunterladen&#8230;</string>
+    <string name="cancel_download_dialog_title">Download abbrechen?</string>
+    <string name="video_list_error_toast">Fehler in der Video-Liste.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">Herunterladen</string>
+    <string name="notification_downloading_pt2">Video-Dateien</string>
+    <string name="notification_no_downloads">Keine Downloads im Gange</string>
+    <string name="long_click_title">Griff gewählter Link:</string>
+    <string name="extsdcard_info_title">Non Standard Zielpfad</string>
+    <string name="extsdcard_info_msg">Datei wird zunächst in der Standard-Download-Ordner heruntergeladen und dann auf das gewählte Ziel verschoben werden.</string>
+    <string name="ffmpeg_ready">FFmpeg bereit.</string>
+    <string name="confirm_audio_checkbox1">Extrahieren Sie Audio nach dem Download</string>
+    <string name="confirm_audio_checkbox2">\n(wie in den Einstellungen definiert)</string>
+	<string name="login_required">Login erforderlich.</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader nicht in der Lage, um dieses Video zu behandeln.</string>
+    <string name="no_video_available">Kein Video verfügbar.</string>
+    <string name="retry_button_text">Wiederholen</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>In die Zwischenablage kopieren</item>
+        <item>Teilen als Text</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>In die Zwischenablage kopieren</item>
+        <item>Teilen als Text</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">Achtung!</string>
+    <string name="extsdcard_warning">Kann Dateien auf dem Wechseldatenträger sdcard schreiben.\nZurückgreifen auf Standard-SD-Karte.</string>
+    <string name="system_warning_title">Dies ist ein System-Ordner</string>
+    <string name="system_warning_msg">Eingeschlagenen Weg zurückfallen wird auf Standard-SD-Karte Download-Ordner.</string>
+    <string name="sdcard_unmounted_warning">Sdcard nicht montiert</string>
+    <string name="update_disabled_summary">Gefunden andere Signatur (F-Droid?)</string>
+    <string name="failed_download">Gescheiterte Download entfernt</string>
+    <string name="new_v_download">gefunden. Herunterladen&#8230;</string>
+    <string name="new_v_install">heruntergeladen werden. Klicken Sie zur Installation.</string>
+    <string name="ffmpeg_download_dialog_title">Eine zusätzliche Datei benötigt wird. Laden Sie es jetzt?</string>
+    <string name="ffmpeg_download_dialog_msg">So extrahieren und konvertieren Sie Audio aus Video heruntergeladen, müssen Sie diese Datei herunterzuladen. Diese Datei ist sicher. Web link:</string>
+    <string name="ffmpeg_device_not_supported">Gerät noch nicht unterstützt.</string>
+    <string name="ffmpeg_support_mail">E-Mail an die Entwickler?
+        \nSie werden alle Informationen in Ihrem E-Mail-Anwendung vor dem Senden von Daten zu überprüfen.</string>
+    <string name="ffmpeg_download_notification">Herunterladen FFmpeg</string>
+    <string name="ffmpeg_install">Installieren FFmpeg binären&#8230;</string>
+    <string name="email_via">Senden Sie E-Mail über:</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader video</string>
+    <string name="copy_error">Fehler während des Kopierens</string>
+    <string name="copy_progress">File copy im Gange&#8230;</string>
+    <string name="copy_ok">Kopieren abgeschlossen.</string>
+    <string name="download_remove_failed">Fehler: temporäre heruntergeladene Datei nicht entfernt!</string>
+    <string name="download_failed">Download fehlgeschlagen!</string>
+    <string name="audio_extr_progress">Audio-Extraktion im Gange&#8230;</string>
+    <string name="audio_conv_progress">Audio-Encoding in MP3 im Gange&#8230;</string>
+    <string name="audio_extr_completed">Audio-Extraktion abgeschlossen.</string>
+    <string name="audio_conv_completed">Audio-Encoding in MP3 abgeschlossen.</string>
+    <string name="audio_extr_error">Fehler beim Audio-Extraktion.</string>
+    <string name="audio_conv_error">Fehler beim Audio-Encoding in MP3.</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg Installation fehlgeschlagen.</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">Downloads</string>
+    <string name="dm_summary">Offene Systeme Download Manager</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">User Interface</string>
+    <string name="lang_title">Sprache</string>
+    <string name="lang_dialog_title">Language (benötigt Neustart der Anwendung):</string>
+    <string name="choose_theme_title">Thema wählen</string>
+    <string-array name="choose_theme_entries">
+        <item>Dunkle</item>
+        <item>Licht</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">Schnellstartanleitung</string>
+    <string name="quick_start_summ">Öffnen Sie ein Schnellstart-Tutorial</string>
+    <string name="quick_start_text">Hier sind nur die Präferenzen für \'Easy Video Downloader\'.
+		\n\nDie eigentliche App kann über die Share-Taste in der Video-App zugegriffen werden kann, während Sie ein Video.
+		\n\nDann wählen Sie \'Easy Video Downloader\' und Sie müssen die weitere Nutzung info.
+		\n\nSie können auch jedes Video teilen Klartext-Verbindung über jede andere App: dh Ihrem Browser.</string>
+		
+		<string name="quick_start_home">Hier sind nur die Präferenzen für \'Easy Video Downloader\'.
+		\n\nDie eigentliche App kann über die Share-Taste in der Video-App zugegriffen werden kann, während Sie ein Video.
+		\n\nDann wählen Sie \'Easy Video Downloader\' und Sie müssen die weitere Nutzung info.
+		\n\nSie können auch jedes Video teilen Klartext-Verbindung über jede andere App: dh Ihrem Browser.
+		\n\nWenn Sie diese App nützlich finden Bitte bewerten Sie uns mit 5 Sternen. 
+		\n\nUm diese Meldung zu schließen einfach irgendwo auf den Bildschirm tippen oder Zurück-Taste.
+		</string>
+		
+    <string name="general_info_title">Aktivieren Allgemeine how-to</string>
+    <string name="general_info_summary">Zeige eine allgemeine App Tutorial beim Start</string>
+    <string name="show_again_checkbox">Zeigen Sie beim nächsten Mal wieder</string>
+    <string name="ssh_info_title">Enable SSH how-to</string>
+    <string name="ssh_info_summary">Show a quick tip about remote downloading via SSH</string>
+    <string name="audio_tutorial_title">Audio-Extraktion Tutorial</string>
+    <string name="audio_tutorial_summary">Öffnen Sie eine kurze Anleitung über die Funktion Audio-Extraktion</string>
+    <string name="audio_tutorial_text">So extrahieren oder konvertieren zu mp3 den Ton von einem heruntergeladenen Video:
+        \n\n*) Aktivieren Sie die Audio-Vorlieben und downloaden FFmpeg;
+        \n\n*) Wählen Sie die Art Extraktion: 
+        \n\n\"extrahieren nur\" wird der Audio-Stream aus dem Video zu sparen wie (WebM-Dateien enthalten ein \"Ogg Vorbis\" 
+        Audio, MP4, 3GPP und groß / mittel FLV Video halten ein \"AAC\" Audio-Stream; FLV klein hält ein \"mp3\");
+        \n\n\"extrahieren und zu MP3 kodieren\" das extrahierte Audio in einer mp3 konvertieren und codiert sie mit der ausgewählten Bitrate.
+        \n\nVon nun an wird eine Checkbox in der Download-Box Bestätigung sichtbar angezeigt werden, wenn Sie auf ein Element
+         in dem Easy Video Downloader Video-Liste. Wenn aktiviert, wird das Audio-Extraktion Job auf Video-Download-Abschluss starten
+         (um das Kontrollkästchen zu verbergen, deaktivieren Sie die Option Audio-Extraktion).
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">Download-Sammlung</string>
+    <string name="standard_location_title">Wählen Sie Standard-Ordner</string>
+    <string name="chooser_swap_title">Swap chooser</string>
+    <string name="chooser_location_title">Öffnen Sie die Datei-Auswahl</string>
+    <string name="chooser_location_summary">Lange drücken, um einen Ordner zu wählen</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">Video-Dateien</string>
+    <string name="enable_q_suffix_title">Anhängen Qualität Suffix</string>
+    <string name="enable_q_suffix_summary">Fügen Sie die Video-Qualität am Ende des Dateinamens</string>
+    <string name="enable_rename_title">Aktivieren Datei umbenennen</string>
+    <string name="enable_rename_summary">Benennen Sie die Video-Datei vor dem Herunterladen</string>
+    <string name="show_size_title">Zeigen Dateigröße</string>
+    <string name="show_size_summary">Fetch das Video Dateigröße beim Download Bestätigungsmeldung (langsamer)</string>
+    <string name="show_size_list_title">Alle Video-Größen</string>
+    <string name="show_size_list_summary">Holt die Dateigrößen für jedes Element in der Liste der verfügbaren Video (viel langsamer)</string>
+    <string name="show_thumb_title">Bildvorschau anzeigen</string>
+    <string name="show_thumb_summary">Laden Sie eine Bildvorschau zusammen mit dem Video-Liste</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">Audio</string>
+    <string name="enable_audio_extraction_title">Aktivieren Sie Audio-Extraktion</string>
+    <string name="enable_audio_extraction_summary">Extrahieren und Konvertieren von Audio von heruntergeladenen Videos</string>
+    <string name="mp3_bitrate_title">Bitrate für MP3-Encoding (kbps)</string>
+    <string name="audio_extraction_type_title">Extraktionart</string>
+    <string name="enable_audio_q_suffix_title">Anhängen Audioqualität Suffix</string>
+    <string name="enable_audio_q_suffix_summary">Fügen Sie die Audio-Qualität am Ende des Dateinamens</string>
+    <string name="remove_video_title">Video Entfernung</string>
+    <string name="remove_video_summary">Aktivieren Videodatei Löschung nach erfolgreichen Audio-Extraktion (Achtung: keine Bestätigung)</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>Auszug nur</item>
+        <item>Extrahieren und zu MP3 kodieren</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">Benachrichtigungen</string>
+    <string name="enable_own_notification_title">Aktivieren eigene Meldung</string>
+    <string name="enable_own_notification_summary">Zeigen Sie eine umfassende Mitteilung über alle Easy Video Downloader Downloads</string>
+    <string name="download_manager_notification_title">Systeme verwalten Meldungen</string>
+    <string name="download_manager_notification_dialog_title">Zeige Systeme Downloadstatistiken Meldungen:</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>Während Fortschritte und nach Abschluss</item>
+        <item>Während in Fortschritt nur</item>
+        <item>nie</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">Benachrichtigung Standardwerte</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader eigenen Mitteilung Standardwerte</string>
+    <string-array name="notification_defaults_entries">
+        <item>Sound and Vibration</item>
+        <item>Sound and Lights</item>
+        <item>Vibration and Lights</item>
+        <item>Sound, Vibration and Lights</item>
+        <item>Sound</item>
+        <item>Vibration</item>
+        <item>Lights</item>
+        <item>Nothing</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+
+
+    
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.becapps.easydownloader"
+    android:installLocation="auto"
+    android:versionCode="5"
+    android:versionName="1.0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        
+        android:allowBackup="true"
+        android:icon="@drawable/icon_new"
+        android:label="@string/app_name_trial" >
+        
+        <service android:name="group.pals.android.lib.ui.filechooser.services.LocalFileProvider" />
+        
+        <activity
+            android:name="group.pals.android.lib.ui.filechooser.FileChooserActivity"
+            android:configChanges="locale|orientation|screenSize|keyboard|keyboardHidden"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.becapps.easydownloader.ShareActivity"
+            android:configChanges="locale|orientation|screenSize|keyboard|keyboardHidden"
+            android:exported="true"
+            android:label="An Go Loader" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" android:host="www.youtube.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="https" android:host="www.youtube.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" android:host="m.youtube.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="https" android:host="m.youtube.com"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.becapps.easydownloader.SettingsActivity"
+            android:configChanges="locale|orientation|screenSize|keyboard|keyboardHidden"
+            android:label="@string/app_name_trial" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+          
+        
+        <activity
+            android:name="com.becapps.easydownloader.TutorialsActivity"
+            android:configChanges="locale|orientation|screenSize|keyboard|keyboardHidden"
+            android:label="@string/title_activity_tutorials" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.becapps.easydownloader.SettingsActivity" />
+        </activity>
+        
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.becapps.easydownloader.SettingsActivity" />
+     
+
+        <service android:name="com.becapps.easydownloader.service.DownloadsService" />
+        <service android:name="com.becapps.easydownloader.service.AutoUpgradeApkService" />
+        <service android:name="com.becapps.easydownloader.service.FfmpegDownloadService" />
+<activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        
+ <!-- AppBrain SDK -->
+<activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" 
+    android:name="com.appbrain.AppBrainActivity" />
+<service android:name="com.appbrain.AppBrainService" />        
+<receiver android:exported="true" android:name="com.appbrain.ReferrerReceiver" >
+    <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+    </intent-filter>
+</receiver>  
+
+<activity android:name="com.startapp.android.publish.list3d.List3DActivity"
+android:taskAffinity="com.testing.easydownloader.AppWall"
+android:theme="@android:style/Theme" />
+<activity android:name="com.startapp.android.publish.AppWallActivity"
+android:theme="@android:style/Theme.Translucent" android:taskAffinity="com.testing.easydownloader.AppWall"
+android:configChanges="orientation|keyboardHidden" />
+
+<meta-data android:name="com.startapp.android.DEV_ID" android:value="108870008"/>
+<meta-data android:name="com.startapp.android.APP_ID" android:value="209783842"/>
+    
+    </application>
+
+</manifest>

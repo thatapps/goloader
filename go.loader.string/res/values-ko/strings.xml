@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Easy Video Downloader</string>
+    <string name="title_activity_settings">설정</string>
+    <string name="title_activity_tutorials">자습서</string>
+     <string name="title_activity_about">약</string>
+
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">일반 앱 자습서</string>
+	<string name="tutorial_msg_new">이제 선택한 비디오에 사용할 수있는 모든 코덱과 자질을 가진 목록이 표시됩니다. 
+	    당신은 할 수 있습니다:
+	    \n\n*) 여기서 당신은 비디오를 다운로드하는 옵션의 다른 크기를 볼 수 있습니다.
+		\n\n*) 항목을 오래 누르면 복사 사이의 텍스트로 클립 보드 또는 공유 링크 (예 : 다른 응용 프로그램으로 전송)을 선택합니다.
+		\n\n*) 비디오 크기 정보를 확인하려면 설정 옵션을 활성화합니다.
+		\n\n*) 곧 좀 더 새로운 기능 ...
+		</string>
+    <string name="loading">로드&#8230;</string>
+    <string name="error">오류!</string>
+    <string name="information">정보</string>
+    <string name="dialogs_negative">취소</string>
+    <string name="wait">잠시 기다려주세요&#8230;</string>
+    <string name="no_downloads_sys_app">\"다운로드\" 시스템 응용 프로그램을 찾을 수 없습니다.</string>
+    <string name="ytd_useless">Easy Video Downloader 이 장치에서 파일을 다운로드 할 수 없습니다.</string>
+    <string name="invalid_url">웹 페이지를 검색 할 수 없습니다. URL이 유효하지 않을 수 있습니다.</string>
+    <string name="invalid_url_short">웹 페이지를 검색 할 수 없습니다.</string>
+    <string name="invalid_response">잘못된 HTTP 서버 응답.</string>
+    <string name="bad_link">제공된 링크를 확인하십시오.</string>
+    <string name="bad_link_dialog_msg">유효하지 않은 동영상 링크를 클릭합니다.</string>
+    <string name="no_net">사용 가능한 연결 없음.</string>
+    <string name="no_net_dialog_msg">하시기 바랍니다 먼저 네트워크 연결을 활성화합니다.</string>
+    <string name="no_market">가능한 시장 앱 없습니다.</string>
+    <string name="no_market_dialog_msg">구글 플레이를 설치하십시오</string>
+    <string name="list_click_dialog_title">로 다운로드 확인 :</string>
+    <string name="list_click_download_local">다운로드</string>
+    
+    <string name="rename_dialog_title">새 파일 이름 :</string>
+    <string name="rename_dialog_msg">파일 확장자 (. MP4 또는. FLV 등)를 입력하지 마십시오.</string>
+    <string name="unable_save">동영상을 저장할 수 없습니다!</string>
+    <string name="unable_save_dialog_msg">대상 폴더를 사용할 수 및 / 또는 쓰기 NOT NOT이다.</string>
+    <string name="ssh_info_tutorial_title">Send via SSH How-To</string>
+    <string name="ssh_info_tutorial_msg">A single long command has been loaded in the clipboard.
+		\n\nChoose a profile in ConnectBot and once in your remote shell, browse to the desired 
+		directory, PASTE the command (use the menu button) and push ENTER.</string>
+    <string name="callConnectBot_dialog_title">%1$s 설치하지!</string>
+    <string name="callConnectBot_dialog_msg">You need this free App to send the video download via SSH.</string>
+    <string name="callConnectBot_dialog_positive">다운로드</string>
+    <string name="download_complete_dialog_msg1">Easy Video Downloader:\n</string>
+    <string name="download_complete_dialog_msg2">\n성공적으로 다운로드.</string>
+    <string name="download_complete_dialog_positive">열려있는</string>
+    <string name="downloading">다운로드&#8230;</string>
+    <string name="cancel_download_dialog_title">다운로드 취소 하시겠습니까?</string>
+    <string name="video_list_error_toast">비디오 목록에 오류가 있습니다.</string>
+    <string name="codec">\n\n\tCodec:</string>
+    <string name="quality">\n\tQuality:</string>
+    <string name="size">\n\tSize:</string>
+    <string name="notification_downloading_pt1">다운로드</string>
+    <string name="notification_downloading_pt2">비디오 파일</string>
+    <string name="notification_no_downloads">진행중인 다운로드 없음</string>
+    <string name="long_click_title">선택한 링크를 처리합니다 :</string>
+    <string name="extsdcard_info_title">표준 대상 경로 이름</string>
+    <string name="extsdcard_info_msg">파일은 표준 다운로드 폴더에 처음 다운로드되는 다음 선택한 대상으로 이동합니다.</string>
+    <string name="ffmpeg_ready">FFmpeg ready.</string>
+    <string name="confirm_audio_checkbox1">다운로드 후 오디오를 추출</string>
+    <string name="confirm_audio_checkbox2">\n(같은 설정에서 정의)</string>
+	<string name="login_required">로그인이 필요합니다.</string>
+    <string name="login_required_dialog_msg">Easy Video Downloader 아니이 비디오를 처리 할 수​​.</string>
+    <string name="no_video_available">사용 가능한 비디오가 없습니다.</string>
+    <string name="retry_button_text">재시도</string>
+
+    
+    <string-array name="long_click_entries">
+        <item>클립 보드에 복사</item>
+        <item>텍스트로 공유</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>클립 보드에 복사</item>
+        <item>텍스트로 공유</item>
+        <item>Send via SSH</item>
+    </string-array>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">주의!</string>
+    <string name="extsdcard_warning">이동식 SD 카드에 파일을 쓸 수 없습니다.\n표준 SD 카드에 다시 떨어지는.</string>
+    <string name="system_warning_title">이 시스템 폴더입니다</string>
+    <string name="system_warning_msg">선택한 경로는 표준 sdcard에 다운로드 폴더에 다시 떨어질 것이다.</string>
+    <string name="sdcard_unmounted_warning">SDCARD가 마운트되지</string>
+    <string name="update_disabled_summary">다른 서명 (F-드로이드?) 발견</string>
+    <string name="failed_download">다운로드에 실패 제거</string>
+    <string name="new_v_download">발견했다. 다운로드&#8230;</string>
+    <string name="new_v_install">다운로드. 클릭하여 설치합니다.</string>
+    <string name="ffmpeg_download_dialog_title">추가 파일이 필요합니다. 지금 다운로드?</string>
+    <string name="ffmpeg_download_dialog_msg">이 파일을 다운로드해야 다운로드 비디오에서 오디오를 추출 및 변환 할 수 있습니다. 이 파일은 안전합니다. 웹 링크 :</string>
+    <string name="ffmpeg_device_not_supported">장치는 아직 지원되지 않습니다.</string>
+    <string name="ffmpeg_support_mail">개발자에게 이메일을 보내?
+        \n당신은 어떤 데이터를 보내기 전에 전자 메일 응용 프로그램의 모든 정보를 검토합니다.</string>
+    <string name="ffmpeg_download_notification">FFmpeg를 다운로드</string>
+    <string name="ffmpeg_install">FFmpeg은 바이너리를 설치&#8230;</string>
+    <string name="email_via">를 통해 이메일 보내기 :</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    
+    <!-- ### DownloadsService ### -->
+    
+    <string name="ytd_video">Easy Video Downloader 비디오</string>
+    <string name="copy_error">복사 중 오류</string>
+    <string name="copy_progress">진행 파일 복사&#8230;</string>
+    <string name="copy_ok">완성 복사합니다.</string>
+    <string name="download_remove_failed">오류 : 임시 다운로드 한 파일을 제거하지 않습니다!</string>
+    <string name="download_failed">실패를 다운로드!</string>
+    <string name="audio_extr_progress">진행중인 오디오 추출&#8230;</string>
+    <string name="audio_conv_progress">진행 MP3로 오디오 인코딩&#8230;</string>
+    <string name="audio_extr_completed">오디오 추출이 완료되었습니다.</string>
+    <string name="audio_conv_completed">MP3로 오디오 인코딩이 완료되었습니다.</string>
+    <string name="audio_extr_error">오디오 추출하는 동안 오류가 발생했습니다.</string>
+    <string name="audio_conv_error">MP3로 오디오 인코딩하는 동안 오류가 발생했습니다.</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg은 설치가 실패했습니다.</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dm_title">다운로드</string>
+    <string name="dm_summary">개방형 시스템 다운로드 관리자</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">사용자 인터페이스</string>
+    <string name="lang_title">언어</string>
+    <string name="lang_dialog_title">언어 (필요한 응용 프로그램을 다시 시작해야 함) :</string>
+    <string name="choose_theme_title">테마를 선택</string>
+    <string-array name="choose_theme_entries">
+        <item>어두운</item>
+        <item>빛</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">빠른 시작</string>
+    <string name="quick_start_summ">빠른 시작 자습서를 열</string>
+    <string name="quick_start_text">여기에 딱 기본 설정은 \'Easy Video Downloader\'.
+		\n\n비디오를 시청하는 동안이 응용 프로그램은 비디오 응용 프로그램에서 공유 버튼을 통해 액세스 할 수 있습니다.
+		\n\n다음을 선택 \'Easy Video Downloader\' 그리고 당신은 더 이상 사용 정보를 갖게됩니다.
+		\n\n브라우저를 즉 : 당신은 또한 다른 앱을 통해 모든 비디오 일반 텍스트 링크를 공유 할 수 있습니다.</string>
+		
+		<string name="quick_start_home">여기에 딱 기본 설정은 \'Easy Video Downloader\'.
+		\n\n비디오를 시청하는 동안이 응용 프로그램은 비디오 응용 프로그램에서 공유 버튼을 통해 액세스 할 수 있습니다.
+		\n\n다음을 선택 \'Easy Video Downloader\' 그리고 당신은 더 이상 사용 정보를 갖게됩니다.
+		\n\n브라우저를 즉 : 당신은 또한 다른 앱을 통해 모든 비디오 일반 텍스트 링크를 공유 할 수 있습니다.
+		\n\n이 응용 프로그램이 유용 할 경우에 5 개의 별을 가진께서는 우리에게 주시기 바랍니다.
+		\n\n이 메시지를 닫으려면 그냥 화면 또는 뒤로 키를 아무 곳이나 누릅니다.
+		</string>
+		
+    <string name="general_info_title">어떻게에 일반 사용</string>
+    <string name="general_info_summary">시작시 일반 응용 프로그램 자습서보기</string>
+    <string name="show_again_checkbox">다시 다음에 시간을 표시</string>
+    <string name="ssh_info_title">Enable SSH how-to</string>
+    <string name="ssh_info_summary">Show a quick tip about remote downloading via SSH</string>
+    <string name="audio_tutorial_title">오디오 추출 자습서</string>
+    <string name="audio_tutorial_summary">오디오 추출 기능에 대한 간략한 가이드를 엽니 다</string>
+    <string name="audio_tutorial_text">추출하거나 MP3 다운로드 동영상에서 오디오로 변환하려면 :
+        \n\n*) 오디오 기본 설정을 사용하고 FFmpeg은 다운로드;
+        \n\n*) 추출 유형을 선택합니다 :
+        \n\n\"만 추출\" 그대로 비디오에서 오디오 스트림을 보존합니다 (WebM을 파일을 포함 \"Ogg Vorbis\" 
+        오디오,, MP4 3GPP 및 중형 / 대형 FLV 비디오는 유지 \"AAC\" 오디오 스트림, FLV 작은을 보유 \"mp3\");
+        \n\n\"추출하여 MP3로 인코딩\" 선택한 비트 전송률로 인코딩 MP3 추출 된 오디오를 변환합니다.
+        \n\n당신이 항목을 클릭하면 지금부터, 체크 박스가 표시 다운로드 확인 대화 상자에 나타납니다
+        에서 Easy Video Downloader\'s 비디오 목록입니다. 이 옵션을 선택하면 오디오 추출 작업은 비디오 다운로드가 완료되면 시작됩니다
+         (체크 박스를 숨기려면 오디오 추출 옵션을 해제).
+        </string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">폴더를 다운로드</string>
+    <string name="standard_location_title">표준 폴더를 선택</string>
+    <string name="chooser_swap_title">선택기를 교환</string>
+    <string name="chooser_location_title">파일 선택기 열기</string>
+    <string name="chooser_location_summary">폴더를 선택하는 장기를 눌러</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">비디오 파일</string>
+    <string name="enable_q_suffix_title">품질 접미사를 추가</string>
+    <string name="enable_q_suffix_summary">파일 이름의 끝에서 비디오 품질을 추가</string>
+    <string name="enable_rename_title">파일 이름 변경 가능</string>
+    <string name="enable_rename_summary">그것을 다운로드하기 전에 비디오 파일의 이름을 바꿉니다</string>
+    <string name="show_size_title">파일 크기를 표시</string>
+    <string name="show_size_summary">다운로드 확인 메시지 (느린)에 동영상 파일 크기 가져 오기</string>
+    <string name="show_size_list_title">모든 비디오 크기를 표시</string>
+    <string name="show_size_list_summary">사용 가능한 비디오 목록에서 모든 항목에 대한 파일 크기 (매우 느리게) 페치</string>
+    <string name="show_thumb_title">미리보기 이미지를 표시</string>
+    <string name="show_thumb_summary">비디오 목록과 함께 미리보기 이미지를 다운로드</string>
+    
+    <!-- -->
+    <string name="settings_cat_audio">오디오</string>
+    <string name="enable_audio_extraction_title">오디오 추출을 가능하게</string>
+    <string name="enable_audio_extraction_summary">다운로드 비디오에서 오디오를 추출 및 변환</string>
+    <string name="mp3_bitrate_title">MP3 인코딩 (kbps의)에 대한 비트 전송률</string>
+    <string name="audio_extraction_type_title">추출 유형</string>
+    <string name="enable_audio_q_suffix_title">오디오 품질 접미사를 추가</string>
+    <string name="enable_audio_q_suffix_summary">파일 이름의 끝에서 오디오 품질을 추가</string>
+    <string name="remove_video_title">비디오 제거</string>
+    <string name="remove_video_summary">(: 없음 확인 경고) 성공적으로 오디오 추출 후 비디오 파일 삭제 가능</string>
+
+    <string-array name="audio_extraction_type_entries">
+        <item>만 추출</item>
+        <item>추출하여 MP3로 인코딩</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="settings_cat_notifications">공지 사항</string>
+    <string name="enable_own_notification_title">자신의 알림을 활성화</string>
+    <string name="enable_own_notification_summary">모두에 대한 포괄적 인 알림 표시 Easy Video Downloader 다운로드</string>
+    <string name="download_manager_notification_title">시스템 알림 관리</string>
+    <string name="download_manager_notification_dialog_title">표시 시스템 관리자의 통지를 다운로드 :</string>
+    
+    <string-array name="download_manager_notification_entries">
+        <item>진행 및 완료 후 잠시</item>
+        <item>진행 과정에있는 동안</item>
+        <item>어머 놀랐다</item>
+    </string-array>
+    
+    <string name="notification_defaults_title">알림 기본값</string>
+    <string name="notification_defaults_dialog_title">Easy Video Downloader\'s 자신의 알림 기본값</string>
+    <string-array name="notification_defaults_entries">
+        <item>소음 및 진동</item>
+        <item>음향 및 조명</item>
+        <item>진동 및 조명</item>
+        <item>사운드, 진동 및 표시 등</item>
+        <item>소리</item>
+        <item>진동</item>
+        <item>조명</item>
+        <item>무</item>
+    </string-array>   
+    
+    <!-- -->
+    
+
+    <!-- -->
+    
+
+    <!-- -->
+    
+    
+    
+        
+    <!-- -->
+   
+
+    <!-- -->
+    
+    <!-- -->
+ 
+    <!-- -->
+	
+</resources>
