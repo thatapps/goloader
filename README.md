@@ -7,7 +7,6 @@ versionCode="75"
 
 versionName="3.5.4"
 
-MD5 checksum: 486a4299a4b1bb7330a7c488a93d3d1d dentex.youtube.downloader_v3.5.4.apk
 
 DISCLAIMER
 You, the user, accept the full responsibility for the usage of 
