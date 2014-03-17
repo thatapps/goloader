@@ -31,7 +31,7 @@ NOTICE
 
 LICENSE
 ================================================================
-Copyright (C) 2012-2013  Samuele Rini
+Copyright (C) 2014  
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -128,13 +128,9 @@ OTHER LICENSES
 	reference: http://mindtherobot.com/blog/159/android-guts-intro-to-loopers-and-handlers/ 
     by Ivan Memruk 
      
-     For more details, look for comments in YTD`s Java code. 
      
-     	Translations 
     
-    For more info go to: 
-    www.getlocalization.com/ytdownloader 
-    forum.xda-developers.com/showthread.php?p=37708791
+   
 
     Note:
     the device-framed screenshots in the project's directory have 
