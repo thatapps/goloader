@@ -1,7 +1,7 @@
-YouTube Downloader for Android _ by dentex
+Video Downloader for Android 
 ================================================================
 
-Download YouTube video and extract or convert audio to mp3.
+Download video and extract or convert audio to mp3.
 For Android 4+ 
 
 *Free and without Ads*
@@ -12,7 +12,7 @@ For Android 4+
 
 `versionName="3.5.4"`
 
-MD5 checksum: `486a4299a4b1bb7330a7c488a93d3d1d` dentex.youtube.downloader_v3.5.4.apk
+MD5 checksum: `486a4299a4b1bb7330a7c488a93d3d1d` 
 
 http://sourceforge.net/projects/ytdownloader/
 
