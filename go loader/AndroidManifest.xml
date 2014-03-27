@@ -96,28 +96,7 @@
         <service android:name="com.becapps.easydownloader.service.DownloadsService" />
         <service android:name="com.becapps.easydownloader.service.AutoUpgradeApkService" />
         <service android:name="com.becapps.easydownloader.service.FfmpegDownloadService" />
-<activity android:name="com.google.ads.AdActivity"
-              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
-        
- <!-- AppBrain SDK -->
-<activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" 
-    android:name="com.appbrain.AppBrainActivity" />
-<service android:name="com.appbrain.AppBrainService" />        
-<receiver android:exported="true" android:name="com.appbrain.ReferrerReceiver" >
-    <intent-filter>
-        <action android:name="com.android.vending.INSTALL_REFERRER" />
-    </intent-filter>
-</receiver>  
 
-<activity android:name="com.startapp.android.publish.list3d.List3DActivity"
-android:taskAffinity="com.testing.easydownloader.AppWall"
-android:theme="@android:style/Theme" />
-<activity android:name="com.startapp.android.publish.AppWallActivity"
-android:theme="@android:style/Theme.Translucent" android:taskAffinity="com.testing.easydownloader.AppWall"
-android:configChanges="orientation|keyboardHidden" />
-
-<meta-data android:name="com.startapp.android.DEV_ID" android:value="108870008"/>
-<meta-data android:name="com.startapp.android.APP_ID" android:value="209783842"/>
     
     </application>
 
