@@ -45,8 +45,6 @@ OTHER LICENSES
 
     	Main Licenses 
      
-    This App is released under the GPL-3.0. 
-    (YouTubeDownloader for Android Copyright (C) 2012-2013 Samuele Rini) 
      
     The FFmpeg binary (http://www.ffmpeg.org/index.html), 
     used for the audio extraction feature, is released under the GPL-3.0. 
@@ -55,8 +53,6 @@ OTHER LICENSES
     The filechooser library is released under the MIT license. 
     (android-filechooser Copyright (C) 2012 Hai Bison) 
      
-    The SlidingMenu library is released under the Apache License. 
-    (Copyright (C) 2012 Jeremy Feinstein) 
 
     The liblame library, used to compile FFmpeg, is released under the LGPL. 
 	A GitHub project, https://github.com/intervigilium/liblame, 
