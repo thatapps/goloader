@@ -1,5 +1,4 @@
 
-
 package com.becapps.easydownloader;
 
 import java.io.File;
@@ -405,7 +404,7 @@ public class ShareActivity extends Activity {
     	Pattern pattern = Pattern.compile("(http://|https://).*(v=.{11}).*");
         Matcher matcher = pattern.matcher(sharedText);
         if (matcher.find()) {
-            validatedLink = matcher.group(1) + "www.youtube.com/watch?" + matcher.group(2);
+            validatedLink = matcher.group(1) + "" + matcher.group(2);
             videoId = matcher.group(2).replace("v=", "");
             return validatedLink;
         }
@@ -1136,7 +1135,7 @@ public class ShareActivity extends Activity {
         Matcher titleMatcher = titlePattern.matcher(content);
         if (titleMatcher.find()) {
             titleRaw = titleMatcher.group()
-            		.replaceAll("(<| - YouTube</)title>", "")
+            		.replaceAll("(<| - Video</)title>", "")
             		.replaceAll("&quot;", "\"")
             		.replaceAll("&amp;", "&")
             		.replaceAll("&#39;", "'");
@@ -1241,25 +1240,7 @@ public class ShareActivity extends Activity {
     
     
     /* 
-    class com.google.youtube.util.SignatureDecipher
-    {
-        function SignatureDecipher () {
-        }
-        static function decipher(str) {
-            var _local3 = str.split("");
-            _local3 = reverse_15888(_local3);
-            _local3 = clone_15888(_local3, 2);
-            _local3 = reverse_15888(_local3);
-            return(_local3.join(""));
-        }
-        static function clone_15888(arr, len) {
-            return(arr.slice(len));
-        }
-        static function reverse_15888(arr) {
-            arr.reverse();
-            return(arr);
-        }
-    }*/
+  
     
     private String signatureDecipher(String sig) {
     	
