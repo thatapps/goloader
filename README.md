@@ -116,22 +116,3 @@ OTHER LICENSES
     by Ivan Memruk 
      
      
-    
-   
-
-    Note:
-    the device-framed screenshots in the project's directory have 
-    been generated with the "Device Frame Generator" Android App by 
-    Prateek Srivastava, available at 
-    <https://github.com/f2prateek/Device-Frame-Generator/>.
-    The generated artwork is released ander the "Creative Commons 
-    Attribution 3.0 Unported" license (CC BY).
-
-
-KNOWN ISSUES
-================================================================
-	[x] Downloads running:
-		- for a long time (around 20 or 30 minutes)
-		AND 
-		- without having the Dashboard Activity to the front
-		may be forced to PAUSE. In this case a manual resume is needed.
