@@ -1,7 +1,7 @@
-Video Downloader for Android 
+followmetoolkit for Android 
 ================================================================
 
-Download video and extract or convert audio to mp3.
+
 For Android 4+ 
 
 ################################################################
